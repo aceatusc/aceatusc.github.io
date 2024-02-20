@@ -1,0 +1,25 @@
+.header-link {
+    color: #777 !important;
+    width: 100%;
+    font-size: 25px !important;
+}
+
+.header-link:hover {
+    color: #444 !important;
+}
+
+.active {
+    color: #000 !important;
+}
+
+#basic-navbar-nav {
+    font-size: 25px !important;
+    padding: 5vh 0px !important;
+}
+
+@media (min-width: 768px) {
+    .header-link {
+        font-size: 1.2rem !important;
+    }
+
+}

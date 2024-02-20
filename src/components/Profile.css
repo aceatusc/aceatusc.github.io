@@ -1,0 +1,16 @@
+.has-link {
+    border-radius: 12px;
+}
+
+.has-link h5 {
+    text-decoration-thickness: 3px;
+    /* text-decoration-line: underline; */
+}
+
+.has-link h5:hover {
+    /* text-decoration: underline; */
+}
+
+.has-link:hover {
+    background-color: #f0f0f0;
+}

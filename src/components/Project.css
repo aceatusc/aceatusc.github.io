@@ -1,0 +1,56 @@
+.has-link {
+    cursor: pointer;
+}
+
+.project-image {
+    width: 100%;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.project-header {
+    font-size: 1.6em;
+}
+
+.project-text {
+    max-height: 1000px;
+    /* width: 400px; */
+    max-width: 100%;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+}
+
+.truncated-text {
+    max-height: 70px;
+    /* -webkit-line-clamp: 3; */
+}
+
+/* desktop */
+@media (min-width: 768px) {
+    .has-link:hover {
+        background-color: #f0f0f0;
+        border-radius: 10px;
+        max-height: 100%;
+    }
+
+    .project-image {
+        height: 100px;
+        /* max-width: 100px; */
+        max-width: 100px;
+        /* width: auto; */
+        object-fit: cover;
+        align-items: center;
+    }
+
+    .project-header {
+        overflow: hidden;
+        display: -webkit-box;
+        max-width: 100%;
+        /* -webkit-line-clamp: 1; */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        /* width: 400px; */
+    }
+    
+}
