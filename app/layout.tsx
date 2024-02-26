@@ -3,13 +3,26 @@ import Navbar from "./UI/navbar";
 import "@/styles/globals.css";
 import Footer from "./UI/footer";
 import Script from "next/script";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   title: "ACE Lab @USC",
   description:
-    "The Adaptive Computing Experiences (ACE) Lab, led by Prof. Souti Chattopadhyay, investigates cognitive and social aspects of how humans interact with software across various activities from programming to building social identities. Several of our award-winning research uses empirical, qualitative, and quantitative means to drive impactful change to real-world products",
+    "The Adaptive Computing Experiences (ACE) Lab led by Prof. Souti Chattopadhyay at the University of Southern California (USC).",
   icons: ["/icon/ace.svg"],
   authors: [{ name: "Run Huang", url: "iamhuang.run" }],
+  keywords: [
+    "hci",
+    "human computer interaction",
+    "usc",
+    "university of southern california",
+    "cs phd",
+    "souti chattopadhyay",
+    "usc ace lab",
+  ],
+  verification: {
+    google: "XAlO1nTAbSyt2eO7ui2Trcc53TxQ4RHSo9SyEHSX0XQ",
+  },
 };
 
 export default function RootLayout({
@@ -27,11 +40,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
-        <Script
-          src="https://static.cloudflareinsights.com/beacon.min.js"
-          defer
-          data-cf-beacon='{"token": "e89b0d5abae04e5ea6ec69cef36bcf3c"}'
-        />
+        <GoogleAnalytics gaId="G-3J0HW6PM08" />
       </body>
     </html>
   );
