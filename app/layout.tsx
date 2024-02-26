@@ -3,7 +3,6 @@ import Navbar from "./UI/navbar";
 import "@/styles/globals.css";
 import Footer from "./UI/footer";
 import Script from "next/script";
-import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   title: "ACE Lab @USC",
@@ -40,7 +39,11 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
-        <GoogleAnalytics gaId="G-3J0HW6PM08" />
+        <Script
+          defer
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon='{"token": "587a324f2ade413a985f00e954864d5f"}'
+        />
       </body>
     </html>
   );
