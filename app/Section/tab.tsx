@@ -54,7 +54,7 @@ export function Tabs({ value, onChange, children }: TabsProps) {
         onClick={() => handleScroll("left")}
       >
         <Image
-          src="/arrow.svg"
+          src="/icon/arrow.svg"
           alt="arrow"
           width={10}
           height={10}
@@ -82,7 +82,7 @@ export function Tabs({ value, onChange, children }: TabsProps) {
         className={styles.tabs_control__button}
         onClick={() => handleScroll("right")}
       >
-        <Image src="/arrow.svg" alt="arrow" width={10} height={10} />
+        <Image src="/icon/arrow.svg" alt="arrow" width={10} height={10} />
       </button>
     </div>
   );

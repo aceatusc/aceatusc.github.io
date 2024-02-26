@@ -37,28 +37,36 @@ export function PeopleAvatar({
 
 export const member_avatar: { [key: string]: JSX.Element } = {
   rini: PeopleAvatar({
-    src: "/rini.jpg",
+    src: "/profile/rini.jpg",
     name: "Souti Chattopadhyay",
     id: "rini",
   }),
   athena: PeopleAvatar({
-    src: "/athena.jpeg",
+    src: "/profile/athena.jpeg",
     name: "Athena Saghi",
     id: "athena",
   }),
   philipp: PeopleAvatar({
-    src: "/philipp.jpeg",
+    src: "/profile/philipp.jpeg",
     name: "Philipp Eibl",
     id: "philipp",
   }),
-  run: PeopleAvatar({ src: "/run.jpeg", name: "Run Huang", id: "run" }),
+  run: PeopleAvatar({ src: "/profile/run.jpeg", name: "Run Huang", id: "run" }),
   sadra: PeopleAvatar({
-    src: "/sadra.png",
+    src: "/profile/sadra.png",
     name: "Sadra Sabouri",
     id: "sadra",
   }),
-  david: PeopleAvatar({ src: "/david.png", name: "David Aoyama", id: "david" }),
-  katie: PeopleAvatar({ src: "/katie.jpeg", name: "Katie Foss", id: "katie" }),
+  david: PeopleAvatar({
+    src: "/profile/david.png",
+    name: "David Aoyama",
+    id: "david",
+  }),
+  katie: PeopleAvatar({
+    src: "/profile/katie.jpeg",
+    name: "Katie Foss",
+    id: "katie",
+  }),
 };
 
 export const member_avatar_tooltip = Object.entries(member_avatar).reduce(

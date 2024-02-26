@@ -53,7 +53,7 @@ const PeopleCard = ({
         {name}
         {alumni && (
           <Image
-            src="/alumni.svg"
+            src="/icon/alumni.svg"
             alt="alumni logo"
             width={20}
             height={20}
@@ -72,7 +72,7 @@ const PeopleCard = ({
           {links?.map(({ type, href }) => (
             <Link href={href} key={href} target="_blank">
               <Image
-                src={`/${type}.svg`}
+                src={`/icon/${type}.svg`}
                 alt={`${type} logo`}
                 width={12}
                 height={12}
@@ -108,7 +108,12 @@ export default function People({
       id={id}
       title={title}
       icon={
-        <Image src="/trojan.svg" alt="usc trojan logo" width={30} height={30} />
+        <Image
+          src="/icon/trojan.svg"
+          alt="usc trojan logo"
+          width={30}
+          height={30}
+        />
       }
       className={inknut_antiqua.className}
     >

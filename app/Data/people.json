@@ -2,7 +2,7 @@
   {
     "name": "Souti Chattopadhyay",
     "role": "the PI of ACE Lab",
-    "image": "/rini.jpg",
+    "image": "/profile/rini.jpg",
     "link": "https://viterbi.usc.edu/directory/faculty/Chattopadhyay/Souti",
     "id": "rini",
     "bio": "and an Assistant Professor in the Department of Computer Science at USC. She works in HCI and Software Engineering.",
@@ -24,7 +24,7 @@
   {
     "name": "Athena Saghi",
     "role": "a first year Ph.D. Student.",
-    "image": "/athena.jpeg",
+    "image": "/profile/athena.jpeg",
     "link": "https://www.linkedin.com/in/atena-saghi/",
     "id": "athena",
     "bio": "She graduated from Sharif University of Technology with a B.S. in Computer Engineering. Her research interests are in Cognitive Computing and AI.",
@@ -42,7 +42,7 @@
   {
     "name": "Philipp Eibl",
     "role": "a first year Ph.D. Student.",
-    "image": "/philipp.jpeg",
+    "image": "/profile/philipp.jpeg",
     "link": "https://philippnoah.github.io/",
     "id": "philipp",
     "bio": "He graduated from University of Toronto with a B.S. in Computer Science. His research interests are in Codebase agents and HAI.",
@@ -64,7 +64,7 @@
   {
     "name": "Run Huang",
     "role": "a first year Ph.D. Student.",
-    "image": "/run.jpeg",
+    "image": "/profile/run.jpeg",
     "link": "https://iamhuang.run",
     "id": "run",
     "bio": "He graduated from Fudan University with a B.S. in Computer Science. His research interests are in Intelligent Interfaces and Social Computing.",
@@ -86,7 +86,7 @@
   {
     "name": "Sadra Sabouri",
     "role": "a first year Ph.D. Student.",
-    "image": "/sadra.png",
+    "image": "/profile/sadra.png",
     "link": "https://sadrasabouri.github.io/",
     "id": "sadra",
     "bio": "He graduated from Sharif University of Technology with a B.S. in Electrical Engineering and Computer Science. His research interests are in Software Engineering and HAI.",
@@ -108,7 +108,7 @@
   {
     "name": "David Aoyama",
     "role": "an Undergraduate Researcher",
-    "image": "/david.png",
+    "image": "/profile/david.png",
     "link": "https://www.linkedin.com/in/davidaoyama",
     "id": "david",
     "bio": "at USC. He is working with Athena.",
@@ -122,7 +122,7 @@
   {
     "name": "Xinyi Zhou",
     "role": "a 2nd year M.S. Student",
-    "image": "/xinyi.jpg",
+    "image": "/profile/xinyi.jpg",
     "link": "https://www.linkedin.com/in/xinyi-zhou-cindy/",
     "id": "xinyi",
     "bio": "at USC. She graduated from SUSTech with a B.E. in Computer Science. Her research interests are in Interaction Design and HAI.",
@@ -136,7 +136,7 @@
   {
     "name": "Meghana Bhat",
     "role": "a 1st year M.S. Student",
-    "image": "/meghana.jpg",
+    "image": "/profile/meghana.jpg",
     "link": "https://www.linkedin.com/in/meghanarbhat/",
     "id": "meghana",
     "bio": "at USC. She graduated with a B.E. in Information Science. Her interests include ideation, development and maintenance of software products, full-stack development and HCI.",
@@ -150,7 +150,7 @@
   {
     "name": "Katie Foss",
     "role": "a M.S. graduate",
-    "image": "/katie.jpeg",
+    "image": "/profile/katie.jpeg",
     "link": "https://www.linkedin.com/in/kathryn-foss-067612102/",
     "alumni": true,
     "id": "katie",
@@ -165,7 +165,7 @@
   {
     "name": "Brice Carter",
     "role": "an Undergraduate Researcher",
-    "image": "/brice.jpeg",
+    "image": "/profile/brice.jpeg",
     "link": "https://www.linkedin.com/in/bricecartercs",
     "alumni": true,
     "id": "brice",

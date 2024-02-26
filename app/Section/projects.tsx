@@ -47,7 +47,7 @@ const ProjectCard = React.forwardRef<HTMLDivElement, ProjectDataType>(
                 className={styles.jd_container}
               >
                 <Image
-                  src="/double_check.svg"
+                  src="/icon/double_check.svg"
                   alt="openings icon"
                   width={20}
                   height={20}
@@ -108,7 +108,9 @@ export default function Projects() {
     <Section
       id="project"
       title="ace projects"
-      icon={<Image src="/ace.svg" alt="project logo" width={30} height={30} />}
+      icon={
+        <Image src="/icon/ace.svg" alt="project logo" width={30} height={30} />
+      }
       className={alegreya.className}
     >
       <Tabs value={filterArea} onChange={setFilterArea}>

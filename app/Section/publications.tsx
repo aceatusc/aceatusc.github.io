@@ -81,7 +81,7 @@ const PublicationItem = ({
           }}
         >
           <Image
-            src="/pdf.svg"
+            src="/icon/pdf.svg"
             width={20}
             height={20}
             alt="download paper pdf"
@@ -95,7 +95,12 @@ const PublicationItem = ({
               height: "2rem",
             }}
           >
-            <Image src="/award.svg" width={20} height={20} alt="award svg" />
+            <Image
+              src="/icon/award.svg"
+              width={20}
+              height={20}
+              alt="award svg"
+            />
             <span
               style={{
                 position: "relative",
@@ -132,7 +137,12 @@ export default function Publications() {
       title="Recent Publications"
       id="publication"
       icon={
-        <Image src="/paper.svg" width={30} height={30} alt="publications svg" />
+        <Image
+          src="/icon/paper.svg"
+          width={30}
+          height={30}
+          alt="publications svg"
+        />
       }
       className={alegreya.className}
       style={{ fontSize: "1.5rem" }}

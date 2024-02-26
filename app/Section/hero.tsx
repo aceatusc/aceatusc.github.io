@@ -63,7 +63,12 @@ export default function Hero() {
         title="ace news"
         className={styles.news_container}
         icon={
-          <Image src="/ace.svg" alt="ace spade logo" width={30} height={30} />
+          <Image
+            src="/icon/ace.svg"
+            alt="ace spade logo"
+            width={30}
+            height={30}
+          />
         }
       >
         {news_data.map((news) => (
