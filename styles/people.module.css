@@ -1,0 +1,132 @@
+@value variables: "./variables.module.css";
+@value primary, secondary, grey from variables;
+
+.people_title {
+    font-size: 2rem;
+    color: #2a2a2a;
+    position: relative;
+}
+
+.people_title_text {
+    position: relative;
+    top: -8px;
+}
+
+.people_container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.6rem 0;
+    justify-content: flex-start;
+    gap: 2rem 0;
+}
+
+.people_card {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+    transition: all 0.3s;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.people_card.small_card {
+    width: 33.3%;
+    font-size: 1rem;
+}
+
+.people_card__image__container {
+    width: 86%;
+    position: relative;
+}
+
+.people_card__image__container::before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+.people_card__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.8rem;
+    transition: transform 0.3s;
+}
+
+.people_card__title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 0.36rem;
+    text-decoration: none;
+    transition: transform 0.3s;
+    position: relative;
+}
+
+.people_card__description {
+    width: 86%;
+    color: #3a3a3a;
+    transition: all 0.3s;
+}
+
+.people_card:hover .people_card__image {
+    transform: scale(1.03) rotateZ(-1.2deg) translateY(-0.6rem);
+}
+
+.people_card:hover .people_card__title {
+    background-color: secondary;
+}
+
+.people_card:hover .people_card__description {
+    color: #2a2a2a;
+}
+
+@media (min-width: 600px) {
+    .people_card {
+        width: 33.3%;
+    }
+
+    .people_card.small_card {
+        width: 25%;
+    }
+}
+
+@media (min-width: 900px) {
+    .people_card {
+        width: 25%;
+    }
+
+    .people_card.small_card {
+        width: 20%;
+    }
+}
+
+@media (min-width: 1120px) {
+    .people_card {
+        width: 20%;
+    }
+
+    .people_card.small_card {
+        width: 16.6%;
+    }
+}
+
+
+.highlight {
+    text-decoration: wavy underline secondary 0.08rem;
+    -webkit-text-decoration: wavy underline #FFCC00;
+    text-underline-offset: 20%;
+}
+
+.all_people_button {
+    position: relative;
+    top: -1rem;
+    left: 0.6rem;
+    color: inherit;
+    font-size: 1.6rem;
+}

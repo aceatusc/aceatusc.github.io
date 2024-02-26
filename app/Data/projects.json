@@ -1,0 +1,126 @@
+[
+  {
+    "name": "Science in Stack Overflow",
+    "description": "Exploring mentions of scientific literature in Stack Overflow to understand its role in facilitating knowledge transfer between the industry and academia.",
+    "area": [
+      "Social Computing",
+      "Empirical Studies"
+    ],
+    "people": [
+      {
+        "name": "Run Huang",
+        "key": "run"
+      },
+      {
+        "name": "Souti Chattopadhyay",
+        "key": "rini"
+      }
+    ],
+    "openings": {
+      "title": "Has Openings",
+      "description": "We are excited to work with talented and motivated students on this project! Desirable skills include: NLP, Social Network Analysis, Web Dev (Javascript, Puppeteer, etc.). Please contact Run Huang if interested."
+    }
+  },
+  {
+    "name": "Sustainable Software Engineering",
+    "description": "Redefining the notion of sustainability for software projects, investigate various open-source and industrial projects to derive metrics, and help future engineers build sustainable software.",
+    "area": [
+      "Sustainability",
+      "Software Engineering"
+    ],
+    "people": [
+      {
+        "name": "Katie Foss",
+        "key": "katie"
+      },
+      {
+        "name": "Athena Saghi",
+        "key": "athena"
+      },
+      {
+        "name": "Run Huang",
+        "key": "run"
+      },
+      {
+        "name": "Sadra Sabouri",
+        "key": "sadra"
+      },
+      {
+        "name": "Souti Chattopadhyay",
+        "key": "rini"
+      }
+    ]
+  },
+  {
+    "name": "Trustworthy AI code generation",
+    "description": "Developing a method to ensure trustworthy AI-generated code suggestions through statistical tools and program analysis techniques.",
+    "area": [
+      "Trustworthy AI",
+      "AI Code Generation",
+      "Software Engineering"
+    ],
+    "people": [
+      {
+        "name": "Sadra Sabouri",
+        "key": "sadra"
+      },
+      {
+        "name": "Souti Chattopadhyay",
+        "key": "rini"
+      }
+    ]
+  },
+  {
+    "name": "Codebase Generation Model Evaluation",
+    "description": "The project examines the performance of AI in creating codebases, assessing developer experience and code effectiveness.",
+    "area": [
+      "AI Code Generation",
+      "Prompt Engineering"
+    ],
+    "people": [
+      {
+        "name": "Philipp Eibl",
+        "key": "philipp"
+      },
+      {
+        "name": "Souti Chattopadhyay",
+        "key": "rini"
+      }
+    ]
+  },
+  {
+    "name": "Expanding the Scope of Changes Made by Code Prompts",
+    "description": "Exploring the limitations of current automatic code suggestion models in generating complete code bases from abstract prompts and proposing a human-in-the-loop framework to extend their capabilities",
+    "area": [
+      "AI Code Generation",
+      "Prompt Engineering"
+    ],
+    "people": [
+      {
+        "name": "Sadra Sabouri",
+        "key": "sadra"
+      },
+      {
+        "name": "Souti Chattopadhyay",
+        "key": "rini"
+      }
+    ]
+  },
+  {
+    "name": "Cognitive control and intervention in autonomous systems",
+    "description": "To design good collaboration in human-autonomous system, we need to understand the cognitive barriers in humans and provide good explanation/intervention systems. In these projects, we look at different autonomous systems and study how human cognition needs support for seamless and safe operations.",
+    "area": [
+      "Cognitive Computing"
+    ],
+    "people": [
+      {
+        "name": "Athena Saghi",
+        "key": "athena"
+      },
+      {
+        "name": "Souti Chattopadhyay",
+        "key": "rini"
+      }
+    ]
+  }
+]

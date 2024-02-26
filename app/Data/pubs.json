@@ -1,0 +1,426 @@
+[
+    {
+        "venue": "arXiv",
+        "author": [
+            {
+                "given": "Yousef",
+                "family": "AlSaqabi"
+            },
+            {
+                "given": "Souti",
+                "family": "Chattopadhyay"
+            }
+        ],
+        "year": 2023,
+        "title": "Driving with Guidance: Exploring the Trade-Off Between GPS Utility and Privacy Concerns Among Drivers",
+        "URL": "https://doi.org/10.48550/arXiv.2309.12601",
+        "abstract": "As the reliance on GPS technology for navigation grows, so does the ethical dilemma of balancing its indispensable utility with the escalating concerns over user privacy. This study investigates the trade-offs between GPS utility and privacy among drivers, using a mixed-method approach that includes a survey of 151 participants and 10 follow-up interviews. We examine usage patterns, feature preferences, and comfort levels with location tracking and destination prediction. Our findings demonstrate that users tend to overlook potential privacy risks in favor of the utility the technology provides. We also find that users do not mind sharing inaccurate or obfuscated location data as long as their frequently visited locations aren't identified, and their full driving routes can't be recreated. Based on our findings, we explore design opportunities for enhancing privacy and utility, including adaptive interfaces, personalized profiles, and technological innovations like blockchain."
+    },
+    {
+        "venue": "arXiv",
+        "author": [
+            {
+                "given": "Souti",
+                "family": "Chattopadhyay"
+            },
+            {
+                "given": "Zixuan",
+                "family": "Feng"
+            },
+            {
+                "given": "Emily Judith",
+                "family": "Arteaga"
+            },
+            {
+                "given": "Audrey",
+                "family": "Au"
+            },
+            {
+                "given": "Gonzalo A.",
+                "family": "Ramos"
+            },
+            {
+                "given": "Titus",
+                "family": "Barik"
+            },
+            {
+                "given": "Anita",
+                "family": "Sarma"
+            }
+        ],
+        "year": 2023,
+        "title": "Make It Make Sense! Understanding and Facilitating Sensemaking in Computational Notebooks",
+        "URL": "https://doi.org/10.48550/arXiv.2312.11431",
+        "abstract": "Reusing and making sense of other scientists' computational notebooks. However, making sense of existing notebooks is a struggle, as these reference notebooks are often exploratory, have messy structures, include multiple alternatives, and have little explanation. To help mitigate these issues, we developed a catalog of cognitive tasks associated with the sensemaking process. Utilizing this catalog, we introduce Porpoise: an interactive overlay on computational notebooks. Porpoise integrates computational notebook features with digital design, grouping cells into labeled sections that can be expanded, collapsed, or annotated for improved sensemaking. We investigated data scientists' needs with unfamiliar computational notebooks and investigated the impact of Porpoise adaptations on their comprehension process. Our counterbalanced study with 24 data scientists found Porpoise enhanced code comprehension, making the experience more akin to reading a book, with one participant describing it as It's really like reading a book."
+    },
+    {
+        "venue": "Communications of the ACM",
+        "author": [
+            {
+                "given": "Souti",
+                "family": "Chattopadhyay"
+            },
+            {
+                "given": "Nicholas",
+                "family": "Nelson"
+            },
+            {
+                "given": "Audrey",
+                "family": "Au"
+            },
+            {
+                "given": "Natalia",
+                "family": "Morales"
+            },
+            {
+                "given": "Christopher A.",
+                "family": "Sanchez"
+            },
+            {
+                "given": "Rahul",
+                "family": "Pandita"
+            },
+            {
+                "given": "Anita",
+                "family": "Sarma"
+            }
+        ],
+        "year": 2022,
+        "title": "Cognitive biases in software development",
+        "URL": "https://doi.org/10.1145/3517217",
+        "abstract": "Cognitive biases are hardwired behaviors that influence developer actions and can set them on an incorrect course of action, necessitating backtracking. Although researchers have found that cognitive biases occur in development tasks in controlled lab studies, we still do not know how these biases affect developers' everyday behavior. Without such an understanding, development tools and practices remain inadequate. To close this gap, we conducted a two-part field study to examine the extent to which cognitive biases occur, the consequences of these biases on developer behavior, and the practices and tools that developers use to deal with these biases. We found about 70% of observed actions were associated with at least one cognitive bias. Even though developers recognized that biases frequently occur, they are forced to deal with such issues with ad hoc processes and suboptimal tool support. As one participant (IP12) lamented: There is no salvation!"
+    },
+    {
+        "venue": "CSCW",
+        "author": [
+            {
+                "given": "Souti",
+                "family": "Chattopadhyay"
+            },
+            {
+                "given": "Denae",
+                "family": "Ford"
+            },
+            {
+                "given": "Thomas",
+                "family": "Zimmermann"
+            }
+        ],
+        "year": 2021,
+        "title": "Developers Who Vlog: Dismantling Stereotypes through Community and Identity",
+        "URL": "https://doi.org/10.1145/3479530",
+        "abstract": "Developers are more than `nerds behind computers all day`, they lead a normal life, and not all take the traditional path to learn programming. However, the public still sees software development as a profession for `math wizards`. To learn more about this special type of knowledge worker from their first-person perspective, we conducted three studies to learn how developers describe a day in their life through vlogs on YouTube and how these vlogs were received by the broader community. We first interviewed 16 developers who vlogged to identify their motivations for creating this content and their intention behind what they chose to portray. Second, we analyzed 130 vlogs (video blogs) to understand the range of the content conveyed through videos. Third, we analyzed 1176 comments from the 130 vlogs to understand the impact the vlogs have on the audience. We found that developers were motivated to promote and build a diverse community, by sharing different aspects of life that define their identity, and by creating awareness about learning and career opportunities in computing. They used vlogs to share a variety of how software developers work and live---showcasing often unseen experiences, including intimate moments from their personal life. From our comment analysis, we found that the vlogs were valuable to the audience to find information and seek advice. Commenters sought opportunities to connect with others over shared triumphs and trials they faced that were also shown in the vlogs. As a central theme, we found that developers use vlogs to challenge the misconceptions and stereotypes around their identity, work-life, and well-being. These social stigmas are obstacles to an inclusive and accepting community and can deter people from choosing software development as a career. We also discuss the implications of using vlogs to support developers, researchers, and beyond."
+    },
+    {
+        "author": [
+            {
+                "given": "Souti",
+                "family": "Chattopadhyay"
+            },
+            {
+                "given": "Thomas",
+                "family": "Zimmermann"
+            },
+            {
+                "given": "Denae",
+                "family": "Ford"
+            }
+        ],
+        "venue": "ESEC/FSE",
+        "year": 2021,
+        "title": "Reel life vs. real life: how software developers share their daily life through vlogs",
+        "URL": "https://doi.org/10.1145/3468264.3468599",
+        "abstract": "Software developers are turning to vlogs (video blogs) to share what a day is like to walk in their shoes. Through these vlogs developers share a rich perspective of their technical work as well their personal lives. However, does the type of activities portrayed in vlogs differ from activities developers in the industry perform? Would developers at a software company prefer to show activities to different extents if they were asked to share about their day through vlogs? To answer these questions, we analyzed 130 vlogs by software developers on YouTube and conducted a survey with 335 software developers at a large software company. We found that although vlogs present traditional development activities such as coding and code peripheral activities (11%), they also prominently feature wellness and lifestyle related activities (47.3%) that have not been reflected in previous software engineering literature. We also found that developers at the software company were inclined to share more non-coding tasks (e.g., personal projects, time spent with family and friends, and health) when asked to create a mock-up vlog to promote diversity. These findings demonstrate a shift in our understanding of how software developers are spending their time and find valuable to share publicly. We discuss how vlogs provide a more complete perspective of software development work and serve as a valuable source of data for empirical research."
+    },
+    {
+        "venue": "ACM TiiS",
+        "author": [
+            {
+                "given": "Andrew",
+                "family": "Anderson"
+            },
+            {
+                "given": "Jonathan",
+                "family": "Dodge"
+            },
+            {
+                "given": "Amrita",
+                "family": "Sadarangani"
+            },
+            {
+                "given": "Zoe",
+                "family": "Juozapaitis"
+            },
+            {
+                "given": "Evan",
+                "family": "Newman"
+            },
+            {
+                "given": "Jed",
+                "family": "Irvine"
+            },
+            {
+                "given": "Souti",
+                "family": "Chattopadhyay"
+            },
+            {
+                "given": "Matthew L.",
+                "family": "Olson"
+            },
+            {
+                "given": "Alan",
+                "family": "Fern"
+            },
+            {
+                "given": "Margaret",
+                "family": "Burnett"
+            }
+        ],
+        "year": 2020,
+        "title": "Mental Models of Mere Mortals with Explanations of Reinforcement Learning",
+        "URL": "https://doi.org/10.1145/3366485",
+        "abstract": "How should reinforcement learning (RL) agents explain themselves to humans not trained in AI? To gain insights into this question, we conducted a 124-participant, four-treatment experiment to compare participants’ mental models of an RL agent in the context of a simple Real-Time Strategy (RTS) game. The four treatments isolated two types of explanations vs. neither vs. both together. The two types of explanations were as follows: (1) saliency maps (an “Input Intelligibility Type” that explains the AI’s focus of attention) and (2) reward-decomposition bars (an “Output Intelligibility Type” that explains the AI’s predictions of future types of rewards). Our results show that a combined explanation that included saliency and reward bars was needed to achieve a statistically significant difference in participants’ mental model scores over the no-explanation treatment. However, this combined explanation was far from a panacea: It exacted disproportionately high cognitive loads from the participants who received the combined explanation. Further, in some situations, participants who saw both explanations predicted the agent’s next action worse than all other treatments’ participants."
+    },
+    {
+        "author": [
+            {
+                "given": "Souti",
+                "family": "Chattopadhyay"
+            },
+            {
+                "given": "Ishita",
+                "family": "Prasad"
+            },
+            {
+                "given": "Austin Z.",
+                "family": "Henley"
+            },
+            {
+                "given": "Anita",
+                "family": "Sarma"
+            },
+            {
+                "given": "Titus",
+                "family": "Barik"
+            }
+        ],
+        "venue": "CHI",
+        "year": 2020,
+        "title": "What's Wrong with Computational Notebooks? Pain Points, Needs, and Design Opportunities",
+        "URL": "https://doi.org/10.1145/3313831.3376729",
+        "abstract": "Computational notebooks - such as Azure, Databricks, and Jupyter - are a popular, interactive paradigm for data scientists to author code, analyze data, and interleave visualizations, all within a single document. Nevertheless, as data scientists incorporate more of their activities into notebooks, they encounter unexpected difficulties, or pain points, that impact their productivity and disrupt their workflow. Through a systematic, mixed-methods study using semi-structured interviews (n=20) and survey (n=156) with data scientists, we catalog nine pain points when working with notebooks. Our findings suggest that data scientists face numerous pain points throughout the entire workflow - from setting up notebooks to deploying to production - across many notebook environments. Our data scientists report essential notebook requirements, such as supporting data exploration and visualization. The results of our study inform and inspire the design of computational notebooks.",
+        "award": "Best Paper Honorable Mention"
+    },
+    {
+        "author": [
+            {
+                "given": "Souti",
+                "family": "Chattopadhyay"
+            },
+            {
+                "given": "Nicholas",
+                "family": "Nelson"
+            },
+            {
+                "given": "Audrey",
+                "family": "Au"
+            },
+            {
+                "given": "Natalia",
+                "family": "Morales"
+            },
+            {
+                "given": "Christopher A.",
+                "family": "Sanchez"
+            },
+            {
+                "given": "Rahul",
+                "family": "Pandita"
+            },
+            {
+                "given": "Anita",
+                "family": "Sarma"
+            }
+        ],
+        "venue": "ICSE",
+        "year": 2020,
+        "title": "A tale from the trenches: cognitive biases and software development",
+        "URL": "https://doi.org/10.1145/3377811.3380330",
+        "abstract": "Cognitive biases are hard-wired behaviors that influence developer actions and can set them on an incorrect course of action, necessitating backtracking. While researchers have found that cognitive biases occur in development tasks in controlled lab studies, we still don't know how these biases affect developers' everyday behavior. Without such an understanding, development tools and practices remain inadequate. To close this gap, we conducted a 2-part field study to examine the extent to which cognitive biases occur, the consequences of these biases on developer behavior, and the practices and tools that developers use to deal with these biases. About 70% of observed actions that were reversed were associated with at least one cognitive bias. Further, even though developers recognized that biases frequently occur, they routinely are forced to deal with such issues with ad hoc processes and sub-optimal tool support. As one participant (IP12) lamented: There is no salvation!",
+        "award": "ACM Distinguished Paper"
+    },
+    {
+        "author": [
+            {
+                "given": "Marjan",
+                "family": "Adeli"
+            },
+            {
+                "given": "Nicholas",
+                "family": "Nelson"
+            },
+            {
+                "given": "Souti",
+                "family": "Chattopadhyay"
+            },
+            {
+                "given": "Hayden",
+                "family": "Coffey"
+            },
+            {
+                "given": "Austin Z.",
+                "family": "Henley"
+            },
+            {
+                "given": "Anita",
+                "family": "Sarma"
+            }
+        ],
+        "venue": "VL/HCC",
+        "year": 2020,
+        "title": "Supporting Code Comprehension via Annotations: Right Information at the Right Time and Place",
+        "URL": "https://doi.org/10.1109/VL/HCC50065.2020.9127264",
+        "abstract": "Code comprehension, especially understanding relationships across project elements (code, documentation, etc.), is non-trivial when information is spread across different interfaces and tools. Bringing the right amount of information, to the place where it is relevant and when it is needed can help reduce the costs of seeking information and creating mental models of the code relationships. While non-traditional IDEs have tried to mitigate these costs by allowing users to spatially place relevant information together, thus far, no study has examined the effects of these non-traditional interactions on code comprehension. Here, we present an empirical study to investigate how the right information at the right time and right place allows users—especially newcomers—to reduce the costs of code comprehension. We use a non-traditional IDE, called Synectic, and implement link-able annotations which provide affordances for the accuracy, time, and space dimensions. We conducted a between-subjects user study of 22 newcomers performing code comprehension tasks using either Synectic or a traditional IDE, Eclipse. We found that having the right information at the right time and place leads to increased accuracy and reduced cognitive load during code comprehension tasks, without sacrificing the usability of developer tools."
+    },
+    {
+        "author": [
+            {
+                "given": "Souti",
+                "family": "Chattopadhyay"
+            },
+            {
+                "given": "Nicholas",
+                "family": "Nelson"
+            },
+            {
+                "given": "Yenifer Ramirez",
+                "family": "Gonzalez"
+            },
+            {
+                "given": "Annel Amelia",
+                "family": "Leon"
+            },
+            {
+                "given": "Rahul",
+                "family": "Pandita"
+            },
+            {
+                "given": "Anita",
+                "family": "Sarma"
+            }
+        ],
+        "venue": "ICSE",
+        "year": 2019,
+        "title": "Latent patterns in activities: a field study of how developers manage context",
+        "URL": "https://doi.org/10.1109/ICSE.2019.00051",
+        "abstract": "In order to build efficient tools that support complex programming tasks, it is imperative that we understand how developers program. We know that developers create a context around their programming task by gathering relevant information. We also know that developers decompose their tasks recursively into smaller units. However, important gaps exist in our knowledge about: (1) the role that context plays in supporting smaller units of tasks, (2) the relationship that exists among these smaller units, and (3) how context flows across them. The goal of this research is to gain a better understanding of how developers structure their tasks and manage context through a field study of ten professional developers in an industrial setting. Our analysis reveals that developers decompose their tasks into smaller units with distinct goals, that specific patterns exist in how they sequence these smaller units, and that developers may maintain context between those smaller units with related goals."
+    },
+    {
+        "author": [
+            {
+                "given": "Andrew",
+                "family": "Anderson"
+            },
+            {
+                "given": "Jonathan",
+                "family": "Dodge"
+            },
+            {
+                "given": "Amrita",
+                "family": "Sadarangani"
+            },
+            {
+                "given": "Zoe",
+                "family": "Juozapaitis"
+            },
+            {
+                "given": "Evan",
+                "family": "Newman"
+            },
+            {
+                "given": "Jed",
+                "family": "Irvine"
+            },
+            {
+                "given": "Souti",
+                "family": "Chattopadhyay"
+            },
+            {
+                "given": "Alan",
+                "family": "Fern"
+            },
+            {
+                "given": "Margaret",
+                "family": "Burnett"
+            }
+        ],
+        "venue": "IJCAI",
+        "year": 2019,
+        "title": "Explaining Reinforcement Learning to Mere Mortals: An Empirical Study",
+        "URL": "https://doi.org/10.24963/ijcai.2019/184",
+        "abstract": "We present a user study to investigate the impact of explanations on non-experts? understanding of reinforcement learning (RL) agents. We investigate both a common RL visualization, saliency maps (the focus of attention), and a more recent explanation type, reward-decomposition bars (predictions of future types of rewards). We designed a 124 participant, four-treatment experiment to compare participants? mental models of an RL agent in a simple Real-Time Strategy (RTS) game. Our results show that the combination of both saliency and reward bars were needed to achieve a statistically significant improvement in mental model score over the control. In addition, our qualitative analysis of the data reveals a number of effects for further study."
+    },
+    {
+        "author": [
+            {
+                "given": "Souti",
+                "family": "Chattopadhyay"
+            },
+            {
+                "given": "Nicholas",
+                "family": "Nelson"
+            },
+            {
+                "given": "Thien",
+                "family": "Nam"
+            },
+            {
+                "given": "McKenzie",
+                "family": "Calvert"
+            },
+            {
+                "given": "Anita",
+                "family": "Sarma"
+            }
+        ],
+        "venue": "CHASE",
+        "year": 2018,
+        "title": "Context in programming: an investigation of how programmers create context",
+        "URL": "https://doi.org/10.1145/3195836.3195861",
+        "abstract": "A programming context can be defined as all the relevant information that a developer needs to complete a task. Context comprises information from different sources and programmers interpret the same information differently based on their programming goal. In fact, the same artifact may create a different context when revisited. Context, therefore, by its very nature is a `slippery notion.` To understand how people create context we observed six programmers engaged in exploratory programming and performed a qualitative analysis of their activities. We observe that the interactions with artifacts and a mapping of meaning from those artifacts for a programming activity determines how one creates context."
+    },
+    {
+        "author": [
+            {
+                "given": "Rafael",
+                "family": "Leano"
+            },
+            {
+                "given": "Souti",
+                "family": "Chattopadhyay"
+            },
+            {
+                "given": "Anita",
+                "family": "Sarma"
+            }
+        ],
+        "venue": "VL/HCC",
+        "year": 2017,
+        "title": "What makes a task difficult? An empirical study of perceptions of task difficulty",
+        "URL": "https://doi.org/10.1109/VLHCC.2017.8103452",
+        "abstract": "Estimating the difficulty of tasks is imperative for project planning, task assignment, and cost calculation. However, little is known about how and for what purpose software practitioners estimate task difficulty in their day-to-day work. In this paper, we interviewed 15 professionals to understand their needs and perceptions when estimating task difficulty. We find that practitioners do estimate the difficulty of tasks for scheduling and prioritizing their work. Additionally, performing such estimation requires more than one metric, and across more than one domain (i.e. code metrics, process metrics, and task metrics). The use of metrics that encapsulate different aspects of a task allows developers to gain a holistic view of the task and its potential difficulty."
+    },
+    {
+        "author": [
+            {
+                "given": "Souti",
+                "family": "Chattopadhyay"
+            }
+        ],
+        "venue": "VL/HCC",
+        "year": 2017,
+        "title": "Context in exploratory programming: Towards a theoretical framework",
+        "URL": "https://doi.org/10.1109/VLHCC.2017.8103492",
+        "abstract": "Creativity theory states good designs are achieved by having a multitude of these designs [1]. Exploratory Programming is the process of trying out designs while writing software. Programmers have to evaluate these alternative implementations in order to implement new ideas [2]. These alternatives often have multiple objectives which might prompt a programmer to work towards multiple goals in episodes. Episodes are distinct periods when a programmer works towards a certain goal. These episodes may be interleaved where programmers compare different episodes [3]. However, there is little research which focuses on how programmers abstract meaningful and appropriate information from their exploration of alternatives to integrate into their current work. We refer to these meaningful abstractions as context."
+    }
+]

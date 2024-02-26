@@ -1,0 +1,10 @@
+@value variables: "./variables.module.css";
+@value grey from variables;
+
+.divider {
+    border: none;
+    height: 0.08rem;
+    background-color: grey;
+    width: 90%;
+    margin: 0 auto;
+}

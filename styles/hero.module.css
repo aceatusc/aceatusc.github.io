@@ -1,0 +1,70 @@
+@value variables: "./variables.module.css";
+@value primary, secondary, grey from variables;
+
+.hero_container {
+    margin-bottom: 2.4rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.intro_container {
+    width: 54%;
+    text-wrap: wrap;
+    text-align: justify;
+}
+
+.intro_sentence:hover {
+    background-color: secondary;
+}
+
+.news_item {
+    position: relative;
+    font-size: 1.4rem;
+    padding: 0 0.3rem;
+    padding-bottom: 1rem;
+    color: #2a2a2a;
+    vertical-align: middle;
+}
+
+.news_date {
+    color: #777;
+    font-size: 1.3rem;
+}
+
+.news_item:hover .news_date {
+    background-color: secondary;
+}
+
+.news_container {
+    width: 46%;
+    padding-left: 4vw;
+}
+
+.highlight {
+    text-decoration: dotted underline primary;
+    text-underline-offset: 20%;
+}
+
+.helper_text {
+    color: #8a8a8a;
+    font-style: italic;
+    font-size: 90%;
+}
+
+@media (max-width: 768px) {
+    .hero_container {
+        flex-direction: column;
+    }
+
+    .intro_container {
+        width: 100%;
+    }
+
+    .news_container {
+        width: 100%;
+        padding-left: 0;
+        margin-top: 1.6rem;
+    }
+}

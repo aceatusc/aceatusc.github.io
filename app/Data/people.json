@@ -1,0 +1,180 @@
+[
+  {
+    "name": "Souti Chattopadhyay",
+    "role": "the PI of ACE Lab",
+    "image": "/rini.jpg",
+    "link": "https://viterbi.usc.edu/directory/faculty/Chattopadhyay/Souti",
+    "id": "rini",
+    "bio": "and an Assistant Professor in the Department of Computer Science at USC. She works in HCI and Software Engineering.",
+    "links": [
+      {
+        "type": "home",
+        "href": "https://viterbi.usc.edu/directory/faculty/Chattopadhyay/Souti"
+      },
+      {
+        "type": "linkedin",
+        "href": "https://www.linkedin.com/in/chattops/"
+      },
+      {
+        "type": "scholar",
+        "href": "https://scholar.google.com/citations?user=kfFmB4MAAAAJ&hl=en&oi=ao"
+      }
+    ]
+  },
+  {
+    "name": "Athena Saghi",
+    "role": "a first year Ph.D. Student.",
+    "image": "/athena.jpeg",
+    "link": "https://www.linkedin.com/in/atena-saghi/",
+    "id": "athena",
+    "bio": "She graduated from Sharif University of Technology with a B.S. in Computer Engineering. Her research interests are in Cognitive Computing and AI.",
+    "links": [
+      {
+        "type": "home",
+        "href": "/athena_cv.pdf"
+      },
+      {
+        "type": "linkedin",
+        "href": "https://www.linkedin.com/in/atena-saghi/"
+      }
+    ]
+  },
+  {
+    "name": "Philipp Eibl",
+    "role": "a first year Ph.D. Student.",
+    "image": "/philipp.jpeg",
+    "link": "https://philippnoah.github.io/",
+    "id": "philipp",
+    "bio": "He graduated from University of Toronto with a B.S. in Computer Science. His research interests are in Codebase agents and HAI.",
+    "links": [
+      {
+        "type": "home",
+        "href": "https://philippnoah.github.io/"
+      },
+      {
+        "type": "linkedin",
+        "href": "https://www.linkedin.com/in/philippeibl"
+      },
+      {
+        "type": "scholar",
+        "href": "https://scholar.google.com/citations?user=Y1R6mUUAAAAJ&hl=en&oi=ao"
+      }
+    ]
+  },
+  {
+    "name": "Run Huang",
+    "role": "a first year Ph.D. Student.",
+    "image": "/run.jpeg",
+    "link": "https://iamhuang.run",
+    "id": "run",
+    "bio": "He graduated from Fudan University with a B.S. in Computer Science. His research interests are in Intelligent Interfaces and Social Computing.",
+    "links": [
+      {
+        "type": "home",
+        "href": "https://iamhuang.run"
+      },
+      {
+        "type": "linkedin",
+        "href": "https://www.linkedin.com/in/runhuangii/"
+      },
+      {
+        "type": "scholar",
+        "href": "https://scholar.google.com/citations?user=v9vsJ64AAAAJ&hl=en"
+      }
+    ]
+  },
+  {
+    "name": "Sadra Sabouri",
+    "role": "a first year Ph.D. Student.",
+    "image": "/sadra.png",
+    "link": "https://sadrasabouri.github.io/",
+    "id": "sadra",
+    "bio": "He graduated from Sharif University of Technology with a B.S. in Electrical Engineering and Computer Science. His research interests are in Software Engineering and HAI.",
+    "links": [
+      {
+        "type": "home",
+        "href": "https://sadrasabouri.github.io/"
+      },
+      {
+        "type": "linkedin",
+        "href": "https://www.linkedin.com/in/sadrasabouri/"
+      },
+      {
+        "type": "scholar",
+        "href": "https://scholar.google.com/citations?user=_nBF5fsAAAAJ&hl=en"
+      }
+    ]
+  },
+  {
+    "name": "David Aoyama",
+    "role": "an Undergraduate Researcher",
+    "image": "/david.png",
+    "link": "https://www.linkedin.com/in/davidaoyama",
+    "id": "david",
+    "bio": "at USC. He is working with Athena.",
+    "links": [
+      {
+        "type": "linkedin",
+        "href": "https://www.linkedin.com/in/davidaoyama"
+      }
+    ]
+  },
+  {
+    "name": "Xinyi Zhou",
+    "role": "a 2nd year M.S. Student",
+    "image": "/xinyi.jpg",
+    "link": "https://www.linkedin.com/in/xinyi-zhou-cindy/",
+    "id": "xinyi",
+    "bio": "at USC. She graduated from SUSTech with a B.E. in Computer Science. Her research interests are in Interaction Design and HAI.",
+    "links": [
+      {
+        "type": "linkedin",
+        "href": "https://www.linkedin.com/in/xinyi-zhou-cindy/"
+      }
+    ]
+  },
+  {
+    "name": "Meghana Bhat",
+    "role": "a 1st year M.S. Student",
+    "image": "/meghana.jpg",
+    "link": "https://www.linkedin.com/in/meghanarbhat/",
+    "id": "meghana",
+    "bio": "at USC. She graduated with a B.E. in Information Science. Her interests include ideation, development and maintenance of software products, full-stack development and HCI.",
+    "links": [
+      {
+        "type": "linkedin",
+        "href": "https://www.linkedin.com/in/meghanarbhat/"
+      }
+    ]
+  },
+  {
+    "name": "Katie Foss",
+    "role": "a M.S. graduate",
+    "image": "/katie.jpeg",
+    "link": "https://www.linkedin.com/in/kathryn-foss-067612102/",
+    "alumni": true,
+    "id": "katie",
+    "bio": "at USC. She now works as a Software Engineer at Salesforce.",
+    "links": [
+      {
+        "type": "linkedin",
+        "href": "https://www.linkedin.com/in/kathryn-foss-067612102/"
+      }
+    ]
+  },
+  {
+    "name": "Brice Carter",
+    "role": "an Undergraduate Researcher",
+    "image": "/brice.jpeg",
+    "link": "https://www.linkedin.com/in/bricecartercs",
+    "alumni": true,
+    "id": "brice",
+    "bio": "at USC.",
+    "links": [
+      {
+        "type": "linkedin",
+        "href": "https://www.linkedin.com/in/bricecartercs"
+      }
+    ]
+  }
+]

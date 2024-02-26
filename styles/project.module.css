@@ -1,0 +1,73 @@
+@value variables: "./variables.module.css";
+@value primary, secondary, grey from variables;
+
+.project_container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    max-height: none;
+    overflow: visible;
+}
+
+.project_card {
+    width: 100%;
+    padding: 1.2rem;
+    padding-right: max(1.2rem, 2.4vw);
+    color: #3a3a3a;
+}
+
+.project_title {
+    display: inline;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.12;
+}
+
+.project_card:hover .project_title {
+    background-color: secondary;
+}
+
+.member_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.member_item {
+    color: #3a3a3a;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    margin-top: 0.6rem;
+    margin-right: 1.6rem;
+}
+
+.jd_container {
+    display: flex;
+    align-items: center;
+}
+
+.jd_container::before {
+    border-color: transparent;
+}
+
+.jd_container::after {
+    width: 16rem;
+    white-space: normal;
+    background-color: white;
+    color: #3a3a3a;
+    box-shadow: #aaa 0px 1px 0.4rem;
+    padding: 0.4rem 0.8rem;
+    hyphens: auto;
+    word-wrap: break-word;
+}
+
+@media (min-width: 576px) {
+    .project_card {
+        width: 50%;
+    }
+
+    .jd_container::after {
+        width: 24rem;
+    }
+}
