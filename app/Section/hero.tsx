@@ -41,12 +41,8 @@ export default function Hero() {
       <Section id="intro" className={styles.intro_container}>
         At the ACE Lab, we are working to transform computing experiences by
         adapting {"users'"} experiences to their cognitive processes.{" "}
-        <span className={styles.highlight}>Computing</span>{" "}
-        {/* <span className={styles.helper_text}>
-          [/kəmˈpyo͞odiNG/] [noun. the use or operation of computers]
-        </span>{" "} */}
-        has evolved beyond programmatic and mathematical operations in{" "}
-        {"today's "}
+        <span className={styles.highlight}>Computing</span> has evolved beyond
+        programmatic and mathematical operations in {"today's "}
         world. {"People's"} interactions with computers range from developers
         building software to people monitoring their heartbeat during exercises
         on wearable devices. However, these experiences are often unintuitive,

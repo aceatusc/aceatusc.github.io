@@ -46,7 +46,6 @@ const PeopleCard = ({
           width={160}
           height={160}
           loading="lazy"
-          quality={100}
         />
       </Link>
       <p className={styles.people_card__title}>
