@@ -1,20 +1,13 @@
 import Image from "next/image";
 import Tooltip from "../UI/tooltip";
 import React from "react";
-import riniProfile from "@/public/profile/rini.jpg";
-import athenaProfile from "@/public/profile/athena.jpeg";
-import philippProfile from "@/public/profile/philipp.jpeg";
-import runProfile from "@/public/profile/run.jpeg";
-import sadraProfile from "@/public/profile/sadra.png";
-import katieProfile from "@/public/profile/katie.jpeg";
-import { StaticImport } from "next/dist/shared/lib/get-img-props";
 
 export function PeopleAvatar({
   src,
   name,
   id,
 }: {
-  src: StaticImport;
+  src: string;
   name: string;
   id: string;
 }) {
@@ -36,7 +29,7 @@ export function PeopleAvatar({
           display: "inline-block",
           border: "0.16rem solid #990000",
         }}
-        loading="eager"
+        loading="lazy"
       />
     </a>
   );
@@ -44,28 +37,33 @@ export function PeopleAvatar({
 
 export const member_avatar: { [key: string]: JSX.Element } = {
   rini: PeopleAvatar({
-    src: riniProfile,
+    src: "/profile/rini.jpg",
     name: "Souti Chattopadhyay",
     id: "rini",
   }),
   athena: PeopleAvatar({
-    src: athenaProfile,
+    src: "/profile/athena.jpeg",
     name: "Athena Saghi",
     id: "athena",
   }),
   philipp: PeopleAvatar({
-    src: philippProfile,
+    src: "/profile/philipp.jpeg",
     name: "Philipp Eibl",
     id: "philipp",
   }),
-  run: PeopleAvatar({ src: runProfile, name: "Run Huang", id: "run" }),
+  run: PeopleAvatar({ src: "/profile/run.jpeg", name: "Run Huang", id: "run" }),
   sadra: PeopleAvatar({
-    src: sadraProfile,
+    src: "/profile/sadra.png",
     name: "Sadra Sabouri",
     id: "sadra",
   }),
+  david: PeopleAvatar({
+    src: "/profile/david.png",
+    name: "David Aoyama",
+    id: "david",
+  }),
   katie: PeopleAvatar({
-    src: katieProfile,
+    src: "/profile/katie.jpeg",
     name: "Katie Foss",
     id: "katie",
   }),
