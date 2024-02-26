@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "ACE Lab @USC",
   description:
     "The Adaptive Computing Experiences (ACE) Lab, led by Prof. Souti Chattopadhyay, investigates cognitive and social aspects of how humans interact with software across various activities from programming to building social identities. Several of our award-winning research uses empirical, qualitative, and quantitative means to drive impactful change to real-world products",
-  icons: ["/ace.svg"],
+  icons: ["/icon/ace.svg"],
   authors: [{ name: "Run Huang", url: "iamhuang.run" }],
 };
 
