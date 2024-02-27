@@ -1,0 +1,35 @@
+@value variables: "./variables.module.css";
+@value primary, secondary, grey from variables;
+
+.opp_container {
+    font-size: 1.44rem;
+    padding: 0 1.2rem;
+}
+
+.highlight {
+    color: primary !important;
+    text-decoration: underline;
+}
+
+.highlight:hover {
+    background-color: secondary;
+}
+
+.opp_button__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.opp_disabled_button {
+    display: block;
+    text-align: center;
+    width: 32rem;
+    border: 0.1rem solid #aaa;
+    border-radius: 2rem;
+    padding: 0.6rem;
+    font-size: 1.2rem;
+    color: #3a3a3a !important;
+    margin: 0.6rem 0;
+}
