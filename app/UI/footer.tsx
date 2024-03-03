@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className={`${alegreya.className} ${styles.footer_container}`}>
       <div>Last updated: Feb 2024</div>
       <div>
-        © Copyright 2024 ACE Lab. Website designed and developed by{" "}
+        © Copyright 2024 ACE Lab. Website developed by{" "}
         <Link
           href="https://iamhuang.run"
           style={{ textDecoration: "underline" }}
