@@ -14,7 +14,11 @@ export default function Footer() {
         >
           ACE Lab members
         </Link>
-        .
+        , with reference to the original design by the{" "}
+        <Link href="from.so" style={{ textDecoration: "underline" }}>
+          spot lab
+        </Link>{" "}
+        at UMich .
       </div>
     </footer>
   );
