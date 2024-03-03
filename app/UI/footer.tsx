@@ -8,7 +8,7 @@ export default function Footer() {
       <div>Last updated: Feb 2024</div>
       <div>
         © Copyright 2024 ACE Lab. Website developed by ACE Lab members ,
-        inspired by the original design by the{" "}
+        inspired by the original design of the{" "}
         <Link
           href="https://from.so"
           style={{
