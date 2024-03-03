@@ -31,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body style={{ width: "100%" }}>
+      <body style={{ width: "100%", backgroundColor: "white" }}>
         <header>
           <Navbar />
         </header>
