@@ -13,8 +13,7 @@ export default function Opportunities() {
         <Image
           src="/icon/ace.svg"
           alt="Ace opportunities"
-          width={30}
-          height={30}
+          fill={true}
           layout="fixed"
         />
       }

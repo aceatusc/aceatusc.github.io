@@ -67,19 +67,25 @@ const PeopleCard = ({
       </p>
       <div className={styles.people_card__description}>
         is <span className={styles.highlight}>{role}</span> {bio}
-        <span style={{ whiteSpace: "nowrap" }}>
+        <span style={{ whiteSpace: "nowrap", marginLeft: "0.2rem" }}>
           {links?.map(({ type, href }) => (
-            <Link href={href} key={href} target="_blank">
+            <Link
+              href={href}
+              key={href}
+              target="_blank"
+              style={{
+                width: "1.2rem",
+                height: "1.2rem",
+                position: "relative",
+                display: "inline-block",
+                margin: "0 0.3rem",
+                top: "0.1rem",
+              }}
+            >
               <Image
                 src={`/icon/${type}.svg`}
                 alt={`${type} logo`}
-                width={12}
-                height={12}
-                style={{
-                  margin: "0 0.3rem",
-                  position: "relative",
-                  top: "2px",
-                }}
+                fill={true}
               />
             </Link>
           ))}
@@ -106,14 +112,7 @@ export default function People({
     <Section
       id={id}
       title={title}
-      icon={
-        <Image
-          src="/icon/trojan.svg"
-          alt="usc trojan logo"
-          width={30}
-          height={30}
-        />
-      }
+      icon={<Image src="/icon/trojan.svg" alt="usc trojan logo" fill={true} />}
       className={inknut_antiqua.className}
     >
       <div className={styles.people_container} id="people">

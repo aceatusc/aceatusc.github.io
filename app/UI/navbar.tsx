@@ -64,11 +64,19 @@ export default function Navbar() {
       </p>
       <Stack className={styles.nav_social} orient="horizontal" gap="2rem">
         {social_links.map((link, index) => (
-          <Link href={link.href} target={link.target} key={index}>
+          <Link
+            href={link.href}
+            target={link.target}
+            key={index}
+            style={{
+              width: "1.6rem",
+              height: "1.6rem",
+              position: "relative",
+            }}
+          >
             <Image
               src={link.icon}
-              width={16}
-              height={16}
+              fill={true}
               alt={link.alt}
               className={styles.nav_social_icon}
             />

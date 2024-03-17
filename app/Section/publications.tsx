@@ -86,14 +86,11 @@ const PublicationItem = ({
           target="_blank"
           style={{
             height: "2rem",
+            width: "2rem",
+            position: "relative",
           }}
         >
-          <Image
-            src="/icon/pdf.svg"
-            width={20}
-            height={20}
-            alt="download paper pdf"
-          />{" "}
+          <Image src="/icon/pdf.svg" fill={true} alt="download paper pdf" />{" "}
         </Link>
         {award && (
           <div
@@ -101,6 +98,8 @@ const PublicationItem = ({
               fontSize: "1rem",
               position: "relative",
               height: "2rem",
+              display: "flex",
+              alignItems: "center",
             }}
           >
             <Image
@@ -109,16 +108,9 @@ const PublicationItem = ({
               height={20}
               alt="award svg"
             />
-            <span
-              style={{
-                position: "relative",
-                top: "-0.6rem",
-                left: "0.3rem",
-                color: "#3a3a3a",
-              }}
-            >
+            <div style={{ color: "#3a3a3a", marginLeft: "0.3rem" }}>
               {award}
-            </span>
+            </div>
           </div>
         )}
       </Stack>
@@ -144,14 +136,7 @@ export default function Publications() {
     <Section
       title="Recent Publications"
       id="publication"
-      icon={
-        <Image
-          src="/icon/paper.svg"
-          width={30}
-          height={30}
-          alt="publications svg"
-        />
-      }
+      icon={<Image src="/icon/paper.svg" fill={true} alt="publications svg" />}
       className={alegreya.className}
       style={{ fontSize: "1.5rem", marginTop: "4.2rem" }}
     >

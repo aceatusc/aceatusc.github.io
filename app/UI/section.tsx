@@ -30,11 +30,22 @@ export default function Section({
     >
       {title && (
         <a
-          style={{ display: "flex", alignItems: "center" }}
+          style={{
+            display: "flex",
+            alignItems: "center",
+          }}
           className={inknut_antiqua.className}
           href={`#${id}`}
         >
-          {icon}
+          <div
+            style={{
+              width: "3rem",
+              height: "3rem",
+              position: "relative",
+            }}
+          >
+            {icon}
+          </div>
           <h5
             style={{
               fontSize: "2rem",

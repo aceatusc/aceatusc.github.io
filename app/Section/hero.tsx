@@ -58,14 +58,7 @@ export default function Hero() {
         id="news"
         title="ace news"
         className={styles.news_container}
-        icon={
-          <Image
-            src="/icon/ace.svg"
-            alt="ace spade logo"
-            width={30}
-            height={30}
-          />
-        }
+        icon={<Image src="/icon/ace.svg" alt="ace spade logo" fill={true} />}
       >
         {news_data.map((news) => (
           <NewsItem key={news.date} {...news} />

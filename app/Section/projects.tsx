@@ -109,9 +109,7 @@ export default function Projects() {
     <Section
       id="project"
       title="ace projects"
-      icon={
-        <Image src="/icon/ace.svg" alt="project logo" width={30} height={30} />
-      }
+      icon={<Image src="/icon/ace.svg" alt="project logo" fill={true} />}
       className={alegreya.className}
       style={{ marginTop: "4.2rem" }}
     >
