@@ -17,13 +17,14 @@ export function PeopleAvatar({
       style={{
         height: "2.4rem",
         width: "2.4rem",
+        display: "block",
+        position: "relative",
       }}
     >
       <Image
         src={src}
         alt={`${name}'s avatar`}
-        width={24}
-        height={24}
+        fill={true}
         style={{
           borderRadius: "50%",
           display: "inline-block",

@@ -16,6 +16,7 @@ interface ProjectDataType {
   area: string[];
   people: { name: string; key: string }[];
   openings?: { title: string; description: string };
+  related?: { title: string; venue: string; href: string }[];
 }
 
 const project_areas = [
@@ -27,7 +28,7 @@ const project_areas = [
 
 const ProjectCard = React.forwardRef<HTMLDivElement, ProjectDataType>(
   (props, ref) => {
-    const { name, description, people, openings } = props;
+    const { name, description, people, openings, related } = props;
 
     return (
       <div ref={ref} className={styles.project_card}>
@@ -112,6 +113,7 @@ export default function Projects() {
         <Image src="/icon/ace.svg" alt="project logo" width={30} height={30} />
       }
       className={alegreya.className}
+      style={{ marginTop: "4.2rem" }}
     >
       <Tabs value={filterArea} onChange={setFilterArea}>
         {project_areas.map((area: string) => (

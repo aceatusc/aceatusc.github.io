@@ -27,17 +27,15 @@ export default function Opportunities() {
         <a href="#project" className={styles.highlight}>
           projects
         </a>{" "}
-        listed above and have unique insights to share, we invite you to
-        directly contact the project leads. We *might* be able to work something
-        out :)
+        listed above and have unique insights to share, we invite you to contact
+        the project leads directly. We might be able to work something out :)
         <p
           style={{ fontSize: "1.2rem", marginTop: "0.6rem", color: "#5a5a5a" }}
         >
-          <i>Please note:</i> it is recommended{" "}
-          <span className={styles.highlight}>NOT</span> to email Prof.
-          Chattopadhyay directly as she is unable to respond promptly, owing to
-          the high volume of emails she receives. Instead, please reach out to
-          individual project leads.
+          <i>Please note:</i> it is recommended NOT to email Prof. Chattopadhyay
+          directly as she is unable to respond promptly, owing to the high
+          volume of emails she receives. Instead, please reach out to individual
+          project leads.
         </p>
         {/* <div className={styles.opp_button__container}>
           <Link

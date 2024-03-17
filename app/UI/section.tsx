@@ -29,17 +29,19 @@ export default function Section({
       style={{ marginTop: "2.4rem", ...style }}
     >
       {title && (
-        <a className={inknut_antiqua.className} href={`#${id}`}>
+        <a
+          style={{ display: "flex", alignItems: "center" }}
+          className={inknut_antiqua.className}
+          href={`#${id}`}
+        >
           {icon}
           <h5
             style={{
               fontSize: "2rem",
               fontWeight: 300,
               color: "#2a2a2a",
-              position: "relative",
-              display: "inline",
+              display: "block",
               marginLeft: "0.6rem",
-              top: "-0.8rem",
               textTransform: "capitalize",
               ...titleStyle,
             }}

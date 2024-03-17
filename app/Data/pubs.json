@@ -1,23 +1,28 @@
 [
     {
-        "venue": "arXiv",
+        "venue": {
+            "name": "The Web Conference",
+            "track": "short paper"
+        },
         "author": [
             {
-                "given": "Yousef",
-                "family": "AlSaqabi"
+                "given": "Run",
+                "family": "Huang"
             },
             {
                 "given": "Souti",
                 "family": "Chattopadhyay"
             }
         ],
-        "year": 2023,
-        "title": "Driving with Guidance: Exploring the Trade-Off Between GPS Utility and Privacy Concerns Among Drivers",
-        "URL": "https://doi.org/10.48550/arXiv.2309.12601",
-        "abstract": "As the reliance on GPS technology for navigation grows, so does the ethical dilemma of balancing its indispensable utility with the escalating concerns over user privacy. This study investigates the trade-offs between GPS utility and privacy among drivers, using a mixed-method approach that includes a survey of 151 participants and 10 follow-up interviews. We examine usage patterns, feature preferences, and comfort levels with location tracking and destination prediction. Our findings demonstrate that users tend to overlook potential privacy risks in favor of the utility the technology provides. We also find that users do not mind sharing inaccurate or obfuscated location data as long as their frequently visited locations aren't identified, and their full driving routes can't be recreated. Based on our findings, we explore design opportunities for enhancing privacy and utility, including adaptive interfaces, personalized profiles, and technological innovations like blockchain."
+        "year": 2024,
+        "title": "A Tale of Two Communities: Exploring Academic References on Stack Overflow",
+        "URL": "https://iamhuang.run/papers/www24.pdf",
+        "abstract": "Stack Overflow is widely recognized by software practitioners as the go-to resource for addressing technical issues and sharing practical solutions. While it is not typically seen as a forum for scholarly discourse, users on Stack Overflow often refer to academic sources in their discussions. Yet, little is known about these referenced works from the academic community and how they intersect the needs and interests of the Stack Overflow community. To bridge this gap, we conducted a large-scale study on academic references in Stack Overflow. Our findings reveal that Stack Overflow communities with different domains of interest engage with academic literature at varying frequencies and speeds. The contradicting patterns suggest that some disciplines may have diverged in their interests and development trajectories from the corresponding practitioner community. Finally, we discuss the potential of Stack Overflow in gauging the real-world relevance of academic research."
     },
     {
-        "venue": "arXiv",
+        "venue": {
+            "name": "arXiv"
+        },
         "author": [
             {
                 "given": "Souti",
@@ -54,7 +59,9 @@
         "abstract": "Reusing and making sense of other scientists' computational notebooks. However, making sense of existing notebooks is a struggle, as these reference notebooks are often exploratory, have messy structures, include multiple alternatives, and have little explanation. To help mitigate these issues, we developed a catalog of cognitive tasks associated with the sensemaking process. Utilizing this catalog, we introduce Porpoise: an interactive overlay on computational notebooks. Porpoise integrates computational notebook features with digital design, grouping cells into labeled sections that can be expanded, collapsed, or annotated for improved sensemaking. We investigated data scientists' needs with unfamiliar computational notebooks and investigated the impact of Porpoise adaptations on their comprehension process. Our counterbalanced study with 24 data scientists found Porpoise enhanced code comprehension, making the experience more akin to reading a book, with one participant describing it as It's really like reading a book."
     },
     {
-        "venue": "Communications of the ACM",
+        "venue": {
+            "name": "Communications of the ACM"
+        },
         "author": [
             {
                 "given": "Souti",
@@ -91,7 +98,9 @@
         "abstract": "Cognitive biases are hardwired behaviors that influence developer actions and can set them on an incorrect course of action, necessitating backtracking. Although researchers have found that cognitive biases occur in development tasks in controlled lab studies, we still do not know how these biases affect developers' everyday behavior. Without such an understanding, development tools and practices remain inadequate. To close this gap, we conducted a two-part field study to examine the extent to which cognitive biases occur, the consequences of these biases on developer behavior, and the practices and tools that developers use to deal with these biases. We found about 70% of observed actions were associated with at least one cognitive bias. Even though developers recognized that biases frequently occur, they are forced to deal with such issues with ad hoc processes and suboptimal tool support. As one participant (IP12) lamented: There is no salvation!"
     },
     {
-        "venue": "CSCW",
+        "venue": {
+            "name": "CSCW"
+        },
         "author": [
             {
                 "given": "Souti",
@@ -126,14 +135,18 @@
                 "family": "Ford"
             }
         ],
-        "venue": "ESEC/FSE",
+        "venue": {
+            "name": "ESEC/FSE"
+        },
         "year": 2021,
         "title": "Reel life vs. real life: how software developers share their daily life through vlogs",
         "URL": "https://doi.org/10.1145/3468264.3468599",
         "abstract": "Software developers are turning to vlogs (video blogs) to share what a day is like to walk in their shoes. Through these vlogs developers share a rich perspective of their technical work as well their personal lives. However, does the type of activities portrayed in vlogs differ from activities developers in the industry perform? Would developers at a software company prefer to show activities to different extents if they were asked to share about their day through vlogs? To answer these questions, we analyzed 130 vlogs by software developers on YouTube and conducted a survey with 335 software developers at a large software company. We found that although vlogs present traditional development activities such as coding and code peripheral activities (11%), they also prominently feature wellness and lifestyle related activities (47.3%) that have not been reflected in previous software engineering literature. We also found that developers at the software company were inclined to share more non-coding tasks (e.g., personal projects, time spent with family and friends, and health) when asked to create a mock-up vlog to promote diversity. These findings demonstrate a shift in our understanding of how software developers are spending their time and find valuable to share publicly. We discuss how vlogs provide a more complete perspective of software development work and serve as a valuable source of data for empirical research."
     },
     {
-        "venue": "ACM TiiS",
+        "venue": {
+            "name": "ACM TiiS"
+        },
         "author": [
             {
                 "given": "Andrew",
@@ -204,7 +217,9 @@
                 "family": "Barik"
             }
         ],
-        "venue": "CHI",
+        "venue": {
+            "name": "CHI"
+        },
         "year": 2020,
         "title": "What's Wrong with Computational Notebooks? Pain Points, Needs, and Design Opportunities",
         "URL": "https://doi.org/10.1145/3313831.3376729",
@@ -242,7 +257,9 @@
                 "family": "Sarma"
             }
         ],
-        "venue": "ICSE",
+        "venue": {
+            "name": "ICSE"
+        },
         "year": 2020,
         "title": "A tale from the trenches: cognitive biases and software development",
         "URL": "https://doi.org/10.1145/3377811.3380330",
@@ -276,7 +293,9 @@
                 "family": "Sarma"
             }
         ],
-        "venue": "VL/HCC",
+        "venue": {
+            "name": "VL/HCC"
+        },
         "year": 2020,
         "title": "Supporting Code Comprehension via Annotations: Right Information at the Right Time and Place",
         "URL": "https://doi.org/10.1109/VL/HCC50065.2020.9127264",
@@ -309,7 +328,9 @@
                 "family": "Sarma"
             }
         ],
-        "venue": "ICSE",
+        "venue": {
+            "name": "ICSE"
+        },
         "year": 2019,
         "title": "Latent patterns in activities: a field study of how developers manage context",
         "URL": "https://doi.org/10.1109/ICSE.2019.00051",
@@ -354,7 +375,9 @@
                 "family": "Burnett"
             }
         ],
-        "venue": "IJCAI",
+        "venue": {
+            "name": "IJCAI"
+        },
         "year": 2019,
         "title": "Explaining Reinforcement Learning to Mere Mortals: An Empirical Study",
         "URL": "https://doi.org/10.24963/ijcai.2019/184",
@@ -383,7 +406,9 @@
                 "family": "Sarma"
             }
         ],
-        "venue": "CHASE",
+        "venue": {
+            "name": "CHASE"
+        },
         "year": 2018,
         "title": "Context in programming: an investigation of how programmers create context",
         "URL": "https://doi.org/10.1145/3195836.3195861",
@@ -404,7 +429,9 @@
                 "family": "Sarma"
             }
         ],
-        "venue": "VL/HCC",
+        "venue": {
+            "name": "VL/HCC"
+        },
         "year": 2017,
         "title": "What makes a task difficult? An empirical study of perceptions of task difficulty",
         "URL": "https://doi.org/10.1109/VLHCC.2017.8103452",
@@ -417,7 +444,9 @@
                 "family": "Chattopadhyay"
             }
         ],
-        "venue": "VL/HCC",
+        "venue": {
+            "name": "VL/HCC"
+        },
         "year": 2017,
         "title": "Context in exploratory programming: Towards a theoretical framework",
         "URL": "https://doi.org/10.1109/VLHCC.2017.8103492",

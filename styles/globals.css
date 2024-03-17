@@ -17,6 +17,42 @@ html {
   scroll-behavior: smooth;
 }
 
+@media (min-width: 960px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media (min-width: 1440px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media (min-width: 1680px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+@media (min-width: 1920px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media (min-width: 2560px) {
+  html {
+    font-size: 120%;
+  }
+}
+
 /*
   Typographic tweaks!
   3. Add accessible line-height

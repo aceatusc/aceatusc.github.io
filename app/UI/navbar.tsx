@@ -1,8 +1,35 @@
 import styles from "@/styles/navbar.module.css";
 import { inknut_antiqua, alegreya } from "./font";
 import Link from "next/link";
+import Image from "next/image";
+import Stack from "./stack";
 
 export default function Navbar() {
+  const social_links = [
+    {
+      href: "/",
+      icon: "/icon/link.svg",
+      alt: "link icon",
+    },
+    {
+      href: "https://twitter.com/uscacelab",
+      icon: "/icon/twitter.svg",
+      alt: "twitter icon",
+      target: "_blank",
+    },
+    {
+      href: "https://github.com/aceatusc",
+      icon: "/icon/github.svg",
+      alt: "github icon",
+      target: "_blank",
+    },
+    {
+      href: "mailto:uscacelab@gmail.com",
+      icon: "/icon/gmail.svg",
+      alt: "email icon",
+      target: "_blank",
+    },
+  ];
   return (
     <nav className={styles.nav_container}>
       <h1 className={`${styles.nav_title} ${inknut_antiqua.className}`}>
@@ -35,6 +62,19 @@ export default function Navbar() {
           California
         </Link>
       </p>
+      <Stack className={styles.nav_social} orient="horizontal" gap="2rem">
+        {social_links.map((link, index) => (
+          <Link href={link.href} target={link.target} key={index}>
+            <Image
+              src={link.icon}
+              width={16}
+              height={16}
+              alt={link.alt}
+              className={styles.nav_social_icon}
+            />
+          </Link>
+        ))}
+      </Stack>
     </nav>
   );
 }

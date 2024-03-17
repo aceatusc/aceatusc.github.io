@@ -1,7 +1,7 @@
 [
   {
     "name": "Science in Stack Overflow",
-    "description": "Exploring references to scientific literature on Stack Overflow (SO) to understand its role in facilitating knowledge transfer between the industry and academia.",
+    "description": "Exploring references to scientific literature on Stack Overflow (SO) to understand its role in facilitating knowledge dissemination between the industry and academia.",
     "area": [
       "Social Computing",
       "Empirical Studies"
@@ -14,6 +14,13 @@
       {
         "name": "Souti Chattopadhyay",
         "key": "rini"
+      }
+    ],
+    "related": [
+      {
+        "title": "A Tale of Two Communities: Exploring Academic References on Stack Overflow",
+        "venue": "WWW '24",
+        "href": "#"
       }
     ]
   },

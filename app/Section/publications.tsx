@@ -13,7 +13,7 @@ import Stack from "../UI/stack";
 interface PublicationDataType {
   title: string;
   author: { given: string; family: string }[];
-  venue: string;
+  venue: { name: string; track?: string };
   year: number;
   URL: string;
   abstract?: string;
@@ -21,7 +21,15 @@ interface PublicationDataType {
 }
 [];
 
-const pub_venues = ["ICSE", "CHI", "ESEC/FSE", "CSCW", "VL/HCC", "IJCAI"];
+const pub_venues = [
+  "ICSE",
+  "CHI",
+  "ESEC/FSE",
+  "CSCW",
+  "The Web Conference",
+  "VL/HCC",
+  "IJCAI",
+];
 
 const pub_years = Array.from(new Set(pub_data.map((pub) => pub.year))).sort(
   (a, b) => b - a
@@ -63,7 +71,7 @@ const PublicationItem = ({
         </div>
       </div>
       <Stack className={styles.pub_item__info2} gap="0.5rem">
-        <p style={{ fontSize: "1.5rem" }}>{venue}</p>
+        <p style={{ fontSize: "1.5rem" }}>{venue.name}</p>
         <p
           style={{
             color: "#3a3a3a",
@@ -71,11 +79,11 @@ const PublicationItem = ({
           }}
         >
           {year}
+          {venue.track && <span>, {venue.track}</span>}
         </p>
         <Link
           href={URL}
           target="_blank"
-          rel="noreferrer noopener"
           style={{
             height: "2rem",
           }}
@@ -124,7 +132,7 @@ export default function Publications() {
 
   const pub_data_filtered = pub_data.filter((pub) => {
     if (filterVenue !== "All") {
-      if (pub.venue !== filterVenue) return false;
+      if (pub.venue.name !== filterVenue) return false;
     }
     if (filterYear !== "All") {
       if (pub.year !== parseInt(filterYear)) return false;
@@ -145,7 +153,7 @@ export default function Publications() {
         />
       }
       className={alegreya.className}
-      style={{ fontSize: "1.5rem" }}
+      style={{ fontSize: "1.5rem", marginTop: "4.2rem" }}
     >
       <div className={styles.select_container}>
         <Select
