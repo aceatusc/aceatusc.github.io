@@ -21,6 +21,61 @@
     },
     {
         "venue": {
+            "name": "ICSE",
+            "track": "Poster"
+        },
+        "author": [
+            {
+                "given": "Amirmohammad",
+                "family": "Nazari"
+            },
+            {
+                "given": "Souti",
+                "family": "Chattopadhyay"
+            },
+            {
+                "given": "Swabha",
+                "family": "Swayamdipta"
+            },
+            {
+                "given": "Mukund",
+                "family": "Raghothaman"
+            }
+        ],
+        "year": 2024,
+        "title": "NomNom: Explanatory Function Names for Program Synthesizers",
+        "abstract": "Despite great advances in program synthesis techniques, they remain algorithmic black boxes. Although they guarantee that when synthesis is successful, the implementation satisfies the specification, they provide no additional information regarding how the implementation works or the manner in which the specification is realized. One possibility to answer these questions is to use large language models to construct human-readable explanations. Unfortunately, experiments reveal that LLMs frequently produce nonsensical or misleading explanations when applied to the unidiomatic code produced by program synthesizers. In this paper, we develop an approach to reliably augment the implementation with explanatory names. Experiments and user studies indicate that these names help users in understanding synthesized implementations.",
+        "URL": "https://arxiv.org/pdf/2403.03429"
+    },
+    {
+        "venue": {
+            "name": "Humans in Cyber-Physical Systems"
+        },
+        "author": [
+            {
+                "given": "Vidisha",
+                "family": "Kudalkar"
+            },
+            {
+                "given": "Anirudh",
+                "family": "Alameluvari"
+            },
+            {
+                "given": "Souti",
+                "family": "Chattopadhyay"
+            },
+            {
+                "given": "Jyotirmoy",
+                "family": "Deshmukh"
+            }
+        ],
+        "year": 2023,
+        "title": "Designing adaptive interventions for human-aware autonomous systems",
+        "abstract": "Shared autonomy aims to have humans and autonomous agents work together on a shared goal to enhance the system’s performance and safety. To provide a seamlessly safe experience, the AI agent needs to estimate the human intentions to adaptively assist humans. We aim to let human collaborator work on their goals while monitoring them continuously for unsafe behavior and making interventions to enhance the safety and performance of the system. We plan to evaluate our proposed system using a within-subject design user study. We posit that adaptive interventions of varying intensities and modalities will enhance the interaction between autonomous systems and humans while improving the overall system and environment safety.",
+        "URL": "https://drive.google.com/file/d/1LsaI6esci1ajlM_HY_AEEFG_I-ehdVQK/view"
+    },
+    {
+        "venue": {
             "name": "arXiv"
         },
         "author": [
