@@ -26,7 +26,7 @@ const pub_venues = [
   "CHI",
   "ESEC/FSE",
   "CSCW",
-  "The Web Conference",
+  "WWW",
   "VL/HCC",
   "IJCAI",
 ];
