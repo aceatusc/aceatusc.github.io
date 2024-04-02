@@ -1,18 +1,12 @@
 [
     {
         "date": "Mar '24",
-        "content": "One short paper accepted to WWW '24. 📝",
+        "content": "One short paper accepted to WWW '24.",
         "people": [
             "run",
             "rini"
-        ]
-    },
-    {
-        "date": "Feb '24",
-        "content": "We are not recruiting new members at the moment. Please check back in a few months. 🙏",
-        "people": [
-            "rini"
-        ]
+        ],
+        "href": "https://sciso.vercel.app"
     },
     {
         "date": "Feb '24",
@@ -31,5 +25,13 @@
         "people": [
             "katie"
         ]
+    },
+    {
+        "date": "Oct '23",
+        "content": "Our project on building trustworthy AI code generation received research grant from Amazon. ",
+        "people": [
+            "rini"
+        ],
+        "href": "https://www.amazon.science/news-and-features/usc-amazon-center-on-secure-and-trusted-machine-learning-2023-2024-research-projects"
     }
 ]

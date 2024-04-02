@@ -4,14 +4,16 @@ import Section from "../UI/section";
 import Image from "next/image";
 import { member_avatar_tooltip } from "./member_avatars";
 import news_data from "@/app/Data/news.json";
+import Link from "next/link";
 
 interface NewsDataType {
   date: string;
   content: string;
   people: string[];
+  href?: string;
 }
 
-function NewsItem({ date, content, people }: NewsDataType) {
+function NewsItem({ date, content, people, href }: NewsDataType) {
   return (
     <div className={styles.news_item}>
       <span className={styles.news_date}>{date}</span>{" "}
@@ -27,7 +29,14 @@ function NewsItem({ date, content, people }: NewsDataType) {
           {member_avatar_tooltip[person]}
         </span>
       ))}
-      : {content}{" "}
+      :{" "}
+      {href ? (
+        <Link href={href}>
+          {content} [<span style={{ color: "#990000" }}>+</span>]
+        </Link>
+      ) : (
+        content
+      )}
     </div>
   );
 }
@@ -40,12 +49,12 @@ export default function Hero() {
     >
       <Section id="intro" className={styles.intro_container}>
         At the ACE Lab, we are working to transform computing experiences by
-        adapting {"users'"} experiences to their cognitive processes.{" "}
-        <span className={styles.highlight}>Computing</span> has evolved beyond
-        programmatic and mathematical operations in {"today's "}
-        world. {"People's"} interactions with computers range from developers
-        building software to people monitoring their heartbeat during exercises
-        on wearable devices. However, these experiences are often unintuitive,
+        adapting {"users'"} experiences to their cognitive processes. In{" "}
+        {"today's "}world, <span className={styles.highlight}>Computing</span>{" "}
+        has evolved beyond programmatic and mathematical operations.{" "}
+        {"People's"} interactions with computers range from developers building
+        software to people monitoring their heartbeat during exercises on
+        wearable devices. However, these experiences are often unintuitive,
         stale, and require humans to adapt to the machine. We aim to build
         experiences that{" "}
         <span className={styles.highlight}>adapt to the users</span>, for
