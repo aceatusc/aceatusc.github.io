@@ -31,7 +31,7 @@
     "image": "/profile/athena.jpeg",
     "link": "https://www.linkedin.com/in/atena-saghi/",
     "id": "athena",
-    "bio": "She graduated from Sharif University of Technology with a B.S. in Computer Engineering. Her research interests are in Cognitive Computing and AI.",
+    "bio": "She graduated from Sharif University of Technology with a BSc in Computer Engineering. Her research interests are in Cognitive Computing and AI.",
     "links": [
       {
         "type": "home",
@@ -49,7 +49,7 @@
     "image": "/profile/philipp.jpeg",
     "link": "https://philippnoah.github.io/",
     "id": "philipp",
-    "bio": "He graduated from University of Toronto with a B.S. in Computer Science. His research interests are in Codebase agents and HAI.",
+    "bio": "He graduated from University of Toronto with a BSc in Computer Science. His research interests are in Codebase agents and HAI.",
     "links": [
       {
         "type": "home",
@@ -71,7 +71,7 @@
     "image": "/profile/run.jpeg",
     "link": "https://iamhuang.run",
     "id": "run",
-    "bio": "He graduated from Fudan University with a B.S. in Computer Science. His research interests are in Intelligent User Interfaces.",
+    "bio": "He graduated from Fudan University with a BSc in Computer Science. His research interests are in Intelligent User Interfaces.",
     "links": [
       {
         "type": "home",
@@ -93,7 +93,7 @@
     "image": "/profile/sadra.png",
     "link": "https://sadrasabouri.github.io/",
     "id": "sadra",
-    "bio": "He graduated from Sharif University of Technology with a B.S. in Electrical Engineering and Computer Science. His research interests are in Software Engineering and HAI.",
+    "bio": "He graduated from Sharif University of Technology with a BSc in Electrical Engineering and Computer Science. His research interests are in Software Engineering and HAI.",
     "links": [
       {
         "type": "home",
@@ -106,6 +106,34 @@
       {
         "type": "scholar",
         "href": "https://scholar.google.com/citations?user=_nBF5fsAAAAJ&hl=en"
+      }
+    ]
+  },
+  {
+    "name": "Xinyi Zhou",
+    "role": "a 2nd year M.S. Student",
+    "image": "/profile/xinyi.jpg",
+    "link": "https://www.linkedin.com/in/xinyi-zhou-cindy/",
+    "id": "xinyi",
+    "bio": "at USC. She graduated from SUSTech with a BEng in Computer Science. Her research interests are in Interaction Design and HAI.",
+    "links": [
+      {
+        "type": "linkedin",
+        "href": "https://www.linkedin.com/in/xinyi-zhou-cindy/"
+      }
+    ]
+  },
+  {
+    "name": "Meghana Bhat",
+    "role": "a 1st year M.S. Student",
+    "image": "/profile/meghana.jpg",
+    "link": "https://www.linkedin.com/in/meghanarbhat/",
+    "id": "meghana",
+    "bio": "at USC. She graduated with a BEng in Information Science. Her interests include ideation, development and maintenance of software products, full-stack development and HCI.",
+    "links": [
+      {
+        "type": "linkedin",
+        "href": "https://www.linkedin.com/in/meghanarbhat/"
       }
     ]
   },
@@ -124,30 +152,16 @@
     ]
   },
   {
-    "name": "Xinyi Zhou",
-    "role": "a 2nd year M.S. Student",
-    "image": "/profile/xinyi.jpg",
-    "link": "https://www.linkedin.com/in/xinyi-zhou-cindy/",
-    "id": "xinyi",
-    "bio": "at USC. She graduated from SUSTech with a B.E. in Computer Science. Her research interests are in Interaction Design and HAI.",
+    "name": "Aman Kumar",
+    "role": "an Undergraduate Researcher",
+    "image": "/profile/aman.jpg",
+    "link": "https://www.linkedin.com/in/aman-kumar-7847221b7/",
+    "id": "aman",
+    "bio": "at USC. He is working with Philipp.",
     "links": [
       {
         "type": "linkedin",
-        "href": "https://www.linkedin.com/in/xinyi-zhou-cindy/"
-      }
-    ]
-  },
-  {
-    "name": "Meghana Bhat",
-    "role": "a 1st year M.S. Student",
-    "image": "/profile/meghana.jpg",
-    "link": "https://www.linkedin.com/in/meghanarbhat/",
-    "id": "meghana",
-    "bio": "at USC. She graduated with a B.E. in Information Science. Her interests include ideation, development and maintenance of software products, full-stack development and HCI.",
-    "links": [
-      {
-        "type": "linkedin",
-        "href": "https://www.linkedin.com/in/meghanarbhat/"
+        "href": "https://www.linkedin.com/in/aman-kumar-7847221b7/"
       }
     ]
   },
