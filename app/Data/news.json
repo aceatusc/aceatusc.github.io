@@ -1,12 +1,20 @@
 [
     {
+        "date": "Jul '24",
+        "content": "One paper accepted to VL/HCC '24 and one late-breaking report accepted to RO-MAN '24",
+        "people": [
+            "rini"
+        ],
+        "href": "#publication"
+    },
+    {
         "date": "Mar '24",
         "content": "One short paper accepted to the ACM Web Conference (WWW) '24.",
         "people": [
             "run",
             "rini"
         ],
-        "href": "#publication"
+        "href": "https://dl.acm.org/doi/10.1145/3589335.3651464"
     },
     {
         "date": "Feb '24",

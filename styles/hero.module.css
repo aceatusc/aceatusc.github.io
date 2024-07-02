@@ -23,7 +23,7 @@
     position: relative;
     font-size: 1.4rem;
     padding: 0 0.3rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0.36rem;
     color: #2a2a2a;
     vertical-align: middle;
 }
@@ -40,6 +40,11 @@
 .news_container {
     width: 46%;
     padding-left: 4vw;
+}
+
+.news_item__container {
+    max-height: 20rem;
+    overflow-y: auto;
 }
 
 .highlight {
@@ -66,5 +71,9 @@
         width: 100%;
         padding-left: 0;
         margin-top: 1.6rem;
+    }
+
+    .news_item__container {
+        max-height: 36rem;
     }
 }

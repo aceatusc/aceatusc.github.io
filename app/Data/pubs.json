@@ -1,7 +1,66 @@
 [
     {
         "venue": {
-            "name": "TheWebConf",
+            "name": "VL/HCC"
+        },
+        "author": [
+            {
+                "given": "Amirmohammad",
+                "family": "Nazari"
+            },
+            {
+                "given": "Swabha",
+                "family": "Swayamdipta"
+            },
+            {
+                "given": "Souti",
+                "family": "Chattopadhyay"
+            },
+            {
+                "given": "Mukund",
+                "family": "Raghothaman"
+            }
+        ],
+        "year": 2024,
+        "title": "Generating Function Names to Improve Comprehension of Synthesized Programs",
+        "URL": "#",
+        "abstract": "Coming soon"
+    },
+    {
+        "venue": {
+            "name": "RO-MAN",
+            "track": "Late Breaking Report"
+        },
+        "author": [
+            {
+                "given": "Zain",
+                "family": "Merchant"
+            },
+            {
+                "given": "Abrar",
+                "family": "Anwar"
+            },
+            {
+                "given": "Emily",
+                "family": "Wang"
+            },
+            {
+                "given": "Souti",
+                "family": "Chattopadhyay"
+            },
+            {
+                "given": "Jesse",
+                "family": "Thomason"
+            }
+        ],
+        "year": 2024,
+        "title": "Generating Contextually-Relevant Navigation Instructions for Blind and Low Vision People",
+        "URL": "#",
+        "abstract": "Coming soon"
+    },
+    {
+        "venue": {
+            "name": "The Web Conference",
             "track": "short paper"
         },
         "author": [

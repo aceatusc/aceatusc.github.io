@@ -69,9 +69,11 @@ export default function Hero() {
         className={styles.news_container}
         icon={<Image src="/icon/ace.svg" alt="ace spade logo" fill={true} />}
       >
-        {news_data.map((news) => (
-          <NewsItem key={news.date} {...news} />
-        ))}
+        <div className={styles.news_item__container}>
+          {news_data.map((news) => (
+            <NewsItem key={news.date} {...news} />
+          ))}
+        </div>
       </Section>
     </section>
   );
