@@ -28,6 +28,13 @@ export default function Opportunities() {
           unable to respond promptly owing to the high volume of emails she
           receives.
         </p>
+        <div className={styles.opp_image}>
+          <Image
+            src="/profile/fa24lunch.jpeg"
+            alt="ace lab group photo Aug 2024"
+            fill
+          />
+        </div>
         {/* <div className={styles.opp_button__container}>
           <Link
             href="https://forms.gle/4dUU8nxKzYyzWBWk6"

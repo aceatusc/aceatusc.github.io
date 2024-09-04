@@ -5,6 +5,7 @@ import Image from "next/image";
 import { member_avatar_tooltip } from "./member_avatars";
 import news_data from "@/app/Data/news.json";
 import Link from "next/link";
+import HideScroll from "../UI/hidescroll";
 
 interface NewsDataType {
   date: string;
@@ -70,9 +71,11 @@ export default function Hero() {
         icon={<Image src="/icon/ace.svg" alt="ace spade logo" fill={true} />}
       >
         <div className={styles.news_item__container}>
-          {news_data.map((news) => (
-            <NewsItem key={news.date} {...news} />
-          ))}
+          <HideScroll>
+            {news_data.map((news) => (
+              <NewsItem key={news.date} {...news} />
+            ))}
+          </HideScroll>
         </div>
       </Section>
     </section>
