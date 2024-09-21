@@ -44,6 +44,14 @@
     ]
   },
   {
+    "name": "Jade H",
+    "role": "a third year Ph.D. Student.",
+    "image": "/profile/jade.png",
+    "link": "#",
+    "id": "jade",
+    "bio": "They graduated from Yale University with a BSc in Computer Science and Physics. Their research interests are in Computer Science Education."
+  },
+  {
     "name": "Philipp Eibl",
     "role": "a first year Ph.D. Student.",
     "image": "/profile/philipp.jpeg",
