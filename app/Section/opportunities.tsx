@@ -13,16 +13,20 @@ export default function Opportunities() {
       className={alegreya.className}
     >
       <div className={styles.opp_container}>
-        We are currently <span className={styles.highlight}>NOT hiring</span>{" "}
-        (sorry!). We encourage you to check back in a few months for updates. If
-        you have a genuine interest in the{" "}
-        <a href="#project" className={styles.highlight}>
-          projects
-        </a>{" "}
-        listed above and have unique insights to share, we invite you to contact
-        the project leads directly.
+        ACE lab is{" "}
+        <i style={{ color: "#990000", fontWeight: "bold" }}>HIRING</i> ! We have
+        openings for PhD students in Fall 2025. If you are interested, please
+        fill in{" "}
+        <Link
+          href="https://forms.gle/k4pE5Ze5bVo5HSPSA"
+          target="_blank"
+          style={{ color: "#990000", textDecoration: "underline" }}
+        >
+          this form
+        </Link>
+        !
         <p
-          style={{ fontSize: "1.2rem", marginTop: "0.6rem", color: "#5a5a5a" }}
+          style={{ fontSize: "1.3rem", marginTop: "0.6rem", color: "#5a5a5a" }}
         >
           <i>Please do not</i> email Prof. Chattopadhyay directly. She would be
           unable to respond promptly owing to the high volume of emails she

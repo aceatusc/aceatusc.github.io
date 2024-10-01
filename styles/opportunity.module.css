@@ -2,52 +2,52 @@
 @value primary, secondary, grey from variables;
 
 .opp_container {
-    font-size: 1.44rem;
-    padding: 0 1.2rem;
-    margin-top: 0.6rem;
+  font-size: 1.5rem;
+  padding: 0 1.2rem;
+  margin-top: 0.6rem;
 }
 
 .highlight {
-    color: primary !important;
-    text-decoration: underline;
+  color: primary !important;
+  text-decoration: underline;
 }
 
 .highlight:hover {
-    background-color: secondary;
+  background-color: secondary;
 }
 
 .opp_button__container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-around;
 }
 
 .opp_disabled_button {
-    display: block;
-    text-align: center;
-    width: 32rem;
-    border: 0.1rem solid #aaa;
-    border-radius: 2rem;
-    padding: 0.6rem;
-    font-size: 1.2rem;
-    color: #3a3a3a !important;
-    margin: 0.6rem 0;
+  display: block;
+  text-align: center;
+  width: 32rem;
+  border: 0.1rem solid #aaa;
+  border-radius: 2rem;
+  padding: 0.6rem;
+  font-size: 1.2rem;
+  color: #3a3a3a !important;
+  margin: 0.6rem 0;
 }
 
 .opp_image {
-    position: relative;
-    width: 42vw;
-    height: 25.6312vw;
-    margin-top: 1.2rem;
-    border-radius: 0.8rem;
-    overflow: hidden;
-    box-shadow: 0 0 0.8rem 0.2rem #cacaca;
+  position: relative;
+  width: 42vw;
+  height: 25.6312vw;
+  margin-top: 1.2rem;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  box-shadow: 0 0 0.8rem 0.2rem #cacaca;
 }
 
 @media (max-width: 600px) {
-    .opp_image {
-        width: calc(90vw - 2.4rem);
-        height: calc(calc(90vw - 2.4rem) * 1688 / 2766);
-    }
+  .opp_image {
+    width: calc(90vw - 2.4rem);
+    height: calc(calc(90vw - 2.4rem) * 1688 / 2766);
+  }
 }
