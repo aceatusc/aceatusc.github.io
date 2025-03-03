@@ -27,7 +27,7 @@
   },
   {
     "name": "Athena Saghi",
-    "role": "a first year Ph.D. Student.",
+    "role": "a 2nd year Ph.D. Student.",
     "image": "/profile/athena.jpeg",
     "link": "https://www.linkedin.com/in/atena-saghi/",
     "id": "athena",
@@ -45,7 +45,7 @@
   },
   {
     "name": "Jade H",
-    "role": "a third year Ph.D. Student.",
+    "role": "a 3rd year Ph.D. Student.",
     "image": "/profile/jade.png",
     "link": "#",
     "id": "jade",
@@ -53,7 +53,7 @@
   },
   {
     "name": "Philipp Eibl",
-    "role": "a first year Ph.D. Student.",
+    "role": "a 2nd year Ph.D. Student.",
     "image": "/profile/philipp.jpeg",
     "link": "https://philippnoah.github.io/",
     "id": "philipp",
@@ -75,7 +75,7 @@
   },
   {
     "name": "Run Huang",
-    "role": "a first year Ph.D. Student.",
+    "role": "a 2nd year Ph.D. Student.",
     "image": "/profile/run.jpeg",
     "link": "https://iamhuang.run",
     "id": "run",
@@ -97,11 +97,11 @@
   },
   {
     "name": "Sadra Sabouri",
-    "role": "a first year Ph.D. Student.",
+    "role": "a 2nd year Ph.D. Student.",
     "image": "/profile/sadra.png",
     "link": "https://sadrasabouri.github.io/",
     "id": "sadra",
-    "bio": "He graduated from Sharif University of Technology with a BSc in Electrical Engineering and Computer Science. His research interests are in Software Engineering and HAI.",
+    "bio": "He graduated from Sharif University of Technology with a BSc in Electrical Engineering and Computer Science. His research interests is in Human-LLM interaction.",
     "links": [
       {
         "type": "home",
@@ -122,6 +122,7 @@
     "role": "a 2nd year M.S. Student",
     "image": "/profile/xinyi.jpg",
     "link": "https://www.linkedin.com/in/xinyi-zhou-cindy/",
+    "alumni": true,
     "id": "xinyi",
     "bio": "at USC. She graduated from SUSTech with a BEng in Computer Science. Her research interests are in Interaction Design and HAI.",
     "links": [
@@ -133,7 +134,7 @@
   },
   {
     "name": "Meghana Bhat",
-    "role": "a 1st year M.S. Student",
+    "role": "a 2nd year M.S. Student",
     "image": "/profile/meghana.jpg",
     "link": "https://www.linkedin.com/in/meghanarbhat/",
     "id": "meghana",
@@ -150,6 +151,7 @@
     "role": "an Undergraduate Researcher",
     "image": "/profile/david.png",
     "link": "https://www.linkedin.com/in/davidaoyama",
+    "alumni": true,
     "id": "david",
     "bio": "at USC. He is working with Athena.",
     "links": [
@@ -165,6 +167,7 @@
     "image": "/profile/aman.jpg",
     "link": "https://www.linkedin.com/in/aman-kumar-7847221b7/",
     "id": "aman",
+    "alumni": true,
     "bio": "at USC. He is working with Philipp.",
     "links": [
       {
