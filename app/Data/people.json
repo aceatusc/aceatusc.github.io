@@ -147,6 +147,20 @@
     ]
   },
   {
+    "name": "Anna Katherine Zhao",
+    "role": "an Undergraduate Researcher",
+    "image": "/profile/anna.jpeg",
+    "link": "https://www.linkedin.com/in/anna-katherine-zhao/",
+    "id": "anna",
+    "bio": "at USC. Anna is working with Run",
+    "links": [
+      {
+        "type": "linkedin",
+        "href": "https://www.linkedin.com/in/anna-katherine-zhao/"
+      }
+    ]
+  },
+  {
     "name": "David Aoyama",
     "role": "an Undergraduate Researcher",
     "image": "/profile/david.png",
