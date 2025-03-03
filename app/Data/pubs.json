@@ -1,6 +1,68 @@
 [
     {
         "venue": {
+            "name": "ICSE"
+        },
+        "author": [
+            {
+                "given": "Zeinabsadat",
+                "family": "Saghi"
+            },
+            {
+                "given": "Thomas",
+                "family": "Zimmermann"
+            },
+            {
+                "given": "Souti",
+                "family": "Chattopadhyay"
+            }
+        ],
+        "year": 2025,
+        "title": "Code Today, Deadline Tomorrow: Procrastination Among Software Developers",
+        "URL": "TBD",
+        "abstract": "Procrastination, the action of delaying or postponing something, is a well-known phenomenon that is relatable to all. While it has been studied in academic settings, little is known about why software developers procrastinate. How does it affect their work? How can developers manage procrastination? This paper presents the first investigation of procrastination among developers. We conduct an interview study with (n=15) developers across different industries to understand the process of procrastination. Using qualitative coding, we report the positive and negative effects of procrastination and factors that triggered procrastination, as perceived by participants. We validate our findings using member checking. Our results reveal 14 negative effects of procrastination on developer productivity. However, participants also reported eight positive effects, four impacting their satisfaction. We also found that participants reported three categories of factors that trigger procrastination: task-related, personal, and external. Finally, we present 19 techniques reported by our participants and studies in other domains that can help developers mitigate the impacts of procrastination. These techniques focus on raising awareness and task focus, help with task planning, and provide pathways to generate team support as a mitigation means. Based on these findings, we discuss interventions for developers and recommendations for tool building to reduce procrastination. Our paper shows that procrastination has unique effects and factors among developers compared to other populations."
+    },
+    {
+        "venue": {
+            "name": "ICSE"
+        },
+        "author": [
+            {
+                "given": "Sadra",
+                "family": "Sabouri"
+            },
+            {
+                "given": "Philipp",
+                "family": "Eibl"
+            },
+            {
+                "given": "Xinyi",
+                "family": "Zhou"
+            },
+            {
+                "given": "Morteza",
+                "family": "Ziyadi"
+            },
+            {
+                "given": "Nenad",
+                "family": "Medvidović"
+            },
+            {
+                "given": "Lars",
+                "family": "Lindemann"
+            },
+            {
+                "given": "Souti",
+                "family": "Chattopadhyay"
+            }
+        ],
+        "year": 2025,
+        "title": "Trust Dynamics in AI-Assisted Development: Definitions, Factors, and Implications",
+        "URL": "https://www.amazon.science/publications/trust-dynamics-in-ai-assisted-development-definitions-factors-and-implications",
+        "abstract": "Software developers increasingly rely on AI code generation utilities. To ensure that “good” code is accepted into the code base and “bad” code is rejected, developers must know when to trust an AI suggestion. Understanding how developers build this intuition is crucial to enhancing developer-AI collaborative programming. In this paper, we seek to understand how developers (1) define and (2) evaluate the trustworthiness of a code suggestion and (3) how trust evolves when using AI code assistants. To answer these questions, we conducted a mixed-method study consisting of an in-depth exploratory survey with (n=29) developers followed by an observation study (n=10). We found that comprehensibility and perceived correctness were the most frequently used factors to evaluate code suggestion trustworthiness. However, the gap in developers’ definition and evaluation of trust points to a lack of support for evaluating trustworthy code in real-time. We also found that developers often alter their trust decisions, keeping only 52% of original suggestions. Based on these findings, we extracted four guidelines to enhance developer-AI interactions. We validated the guidelines through a survey with (n=7) domain experts and survey members (n=8). We discuss the validated guidelines, how to apply them, and tools to help adopt them."
+    },
+    {
+        "venue": {
             "name": "VL/HCC"
         },
         "author": [
