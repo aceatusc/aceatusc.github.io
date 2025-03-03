@@ -42,10 +42,10 @@ export default function Navbar() {
         adaptive computing experiences
       </h3>
       <p className={`${styles.nav_text} ${alegreya.className}`}>
-        <span className={styles.highlight}>Visit us:</span> Room 101, Powell
-        Hall, 3737 Watt Way, Los Angeles, CA{" "}
+        <span className={styles.highlight}>Visit us:</span> 503B, Ginsburg Hall,
+        Downey Way, Los Angeles, CA{" "}
         <Link
-          href="https://www.google.com/maps/dir//Powell+Hall,+3737+Watt+Way,+Los+Angeles,+CA+90089"
+          href="https://maps.app.goo.gl/SidXPe1nqjf8WG9X9"
           className={styles.helper_text}
           target="_blank"
           rel="noreferrer noopener"
