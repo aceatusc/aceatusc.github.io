@@ -49,7 +49,7 @@ export default function Hero() {
       className={`${alegreya.className} ${styles.hero_container}`}
     >
       <Section id="intro" className={styles.intro_container}>
-        <Link
+        {/* <Link
           href="#opportunities"
           style={{
             backgroundColor: "#990000",
@@ -59,8 +59,8 @@ export default function Hero() {
             fontWeight: 500,
           }}
         >
-          We are hiring!
-        </Link>{" "}
+          We are NOT hiring.
+        </Link>{" "} */}
         At the ACE Lab, we are working to transform computing experiences by
         adapting {"users'"} experiences to their cognitive processes. In{" "}
         {"today's "}world, <span className={styles.highlight}>Computing</span>{" "}

@@ -13,7 +13,7 @@ import Stack from "../UI/stack";
 interface PublicationDataType {
   title: string;
   author: { given: string; family: string }[];
-  venue: { name: string; track?: string };
+  venue: { name: string; track?: string; full?: string };
   year: number;
   URL: string;
   abstract?: string;
@@ -22,12 +22,13 @@ interface PublicationDataType {
 [];
 
 const pub_venues = [
-  "ICSE",
   "CHI",
+  "UIST",
+  "ICSE",
   "ESEC/FSE",
   "CSCW",
-  "The Web Conference",
   "VL/HCC",
+  "The Web Conference",
   "IJCAI",
 ];
 
@@ -58,6 +59,7 @@ const PublicationItem = ({
             </span>
           ))}
         </p>
+        <p style={{ fontSize: "1.4rem", color: "#5a5a5a" }}>📄 {venue.full}</p>
         <div className={styles.pub_item__abstract} tabIndex={0}>
           <span
             className={styles.highlight}
@@ -71,11 +73,11 @@ const PublicationItem = ({
         </div>
       </div>
       <Stack className={styles.pub_item__info2} gap="0.5rem">
-        <p style={{ fontSize: "1.5rem" }}>{venue.name}</p>
+        <p style={{ fontSize: "1.7rem" }}>{venue.name}</p>
         <p
           style={{
             color: "#3a3a3a",
-            fontSize: "1.2rem",
+            fontSize: "1.5rem",
           }}
         >
           {year}
@@ -85,8 +87,8 @@ const PublicationItem = ({
           href={URL}
           target="_blank"
           style={{
-            height: "2rem",
-            width: "2rem",
+            height: "3rem",
+            width: "3rem",
             position: "relative",
           }}
         >
@@ -95,7 +97,7 @@ const PublicationItem = ({
         {award && (
           <div
             style={{
-              fontSize: "1rem",
+              fontSize: "1.4rem",
               position: "relative",
               height: "2rem",
               display: "flex",
@@ -104,8 +106,8 @@ const PublicationItem = ({
           >
             <Image
               src="/icon/award.svg"
-              width={20}
-              height={20}
+              width={24}
+              height={24}
               alt="award svg"
             />
             <div style={{ color: "#3a3a3a", marginLeft: "0.3rem" }}>

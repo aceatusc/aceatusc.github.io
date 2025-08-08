@@ -49,7 +49,9 @@ const PeopleCard = ({
         />
       </Link>
       <p className={styles.people_card__title}>
-        {name}
+        <Link href={link} target="_blank">
+          {name}
+        </Link>
         {alumni && (
           <Image
             src="/icon/alumni.svg"
@@ -73,6 +75,7 @@ const PeopleCard = ({
               href={href}
               key={href}
               target="_blank"
+              rel="noopener noreferrer"
               style={{
                 width: "1.2rem",
                 height: "1.2rem",

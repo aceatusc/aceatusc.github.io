@@ -1,5 +1,25 @@
 [
     {
+        "date": "Aug '25",
+        "content": "One paper got accepted to UIST '25! 🎉",
+        "href": "https://uist.acm.org/2025/program.html",
+        "people": [
+            "run",
+            "anna",
+            "athena",
+            "sadra"
+        ]
+    },
+    {
+        "date": "Jul '25",
+        "content": "One paper accepted to VL/HCC '25! ✏️",
+        "href": "https://conf.researchr.org/details/vlhcc-2025/vlhcc-2025-research-papers/25/Exploring-the-Challenges-and-Opportunities-of-AI-assisted-Codebase-Generation",
+        "people": [
+            "philipp",
+            "sadra"
+        ]
+    },
+    {
         "date": "Mar '25",
         "content": "Two papers got accepted to ICSE '25! 🎉",
         "href": "https://conf.researchr.org/track/icse-2025/icse-2025-research-track",
@@ -7,16 +27,7 @@
             "sadra",
             "athena",
             "philipp",
-            "xinyi",
-            "rini"
-        ]
-    },
-    {
-        "date": "Oct '24",
-        "content": "We are hiring PhD students for Fall 2025 🥳 Click here if you are interested in working with us! 🙌",
-        "href": "https://forms.gle/k4pE5Ze5bVo5HSPSA",
-        "people": [
-            "rini"
+            "xinyi"
         ]
     },
     {
@@ -38,8 +49,7 @@
         "date": "Mar '24",
         "content": "One short paper accepted to the ACM Web Conference (WWW) '24.",
         "people": [
-            "run",
-            "rini"
+            "run"
         ],
         "href": "https://dl.acm.org/doi/10.1145/3589335.3651464"
     },
@@ -50,8 +60,7 @@
             "run",
             "philipp",
             "sadra",
-            "athena",
-            "rini"
+            "athena"
         ]
     },
     {

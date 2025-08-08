@@ -1,7 +1,64 @@
 [
     {
         "venue": {
-            "name": "ICSE"
+            "name": "UIST",
+            "full": "ACM Symposium on User Interface Software and Technology"
+        },
+        "author": [
+            {
+                "given": "Run",
+                "family": "Huang"
+            },
+            {
+                "given": "Anna Katherine",
+                "family": "Zhao"
+            },
+            {
+                "given": "Zeinabsadat",
+                "family": "Saghi"
+            },
+            {
+                "given": "Sadra",
+                "family": "Sabouri"
+            },
+            {
+                "given": "Souti",
+                "family": "Chattopadhyay"
+            }
+        ],
+        "URL": "#",
+        "year": 2025,
+        "abstract": "Researchers actively engage in informal discussions about academic papers on social media. They share insights, promote papers, and discuss emerging ideas in an engaging and accessible way. Yet, this rich source of scholarly discourse is often isolated from the paper reading process and remains underutilized. A natural question thus arises: What if we bring these peer discussions on social media into the reading experience? What might be the benefits of reading research papers alongside informal social insights? To explore the design space of such integration, we conducted a formative study with eight researchers. Participants recognized the value of social media in expanding their perspectives and connecting with fellow researchers. However, they also reported significant distraction and cognitive overload when confronted with streams of noisy, unstructured social media comments. Guided by the design goals derived from their feedback, we introduce SURF, a novel reading interface that enriches academic papers with Social Understanding of Research Findings. SURF organizes social media clutter into digestible threads and presents them contextually within the paper, allowing readers to seamlessly access peer insights without disrupting their reading process. In a within-subjects usability study (N=18), participants achieved significantly deeper comprehension and higher self-efficacy with SURF, while reporting lower cognitive load. They also noted SURF's various benefits beyond paper reading, such as facilitating literature review and fostering social engagement within the academic community. Some participants envisioned SURF and academic social media as a potential supplement to the traditional peer‑review process.",
+        "title": "Beyond the Page: Enriching Academic Paper Reading with Social Media Discussions"
+    },
+    {
+        "venue": {
+            "name": "VL/HCC",
+            "full": "IEEE Symposium on Visual Languages and Human-Centric Computing"
+        },
+        "author": [
+            {
+                "given": "Philipp",
+                "family": "Eibl"
+            },
+            {
+                "given": "Sadra",
+                "family": "Sabouri"
+            },
+            {
+                "given": "Souti",
+                "family": "Chattopadhyay"
+            }
+        ],
+        "year": 2025,
+        "title": "Exploring the Challenges and Opportunities of AI-assisted Codebase Generation",
+        "URL": "#",
+        "abstract": ""
+    },
+    {
+        "venue": {
+            "name": "ICSE",
+            "full": "IEEE/ACM International Conference on Software Engineering"
         },
         "author": [
             {
@@ -19,12 +76,13 @@
         ],
         "year": 2025,
         "title": "Code Today, Deadline Tomorrow: Procrastination Among Software Developers",
-        "URL": "#",
+        "URL": "https://www.computer.org/csdl/proceedings-article/icse/2025/056900a735/251mHgxubJe",
         "abstract": "Procrastination, the action of delaying or postponing something, is a well-known phenomenon that is relatable to all. While it has been studied in academic settings, little is known about why software developers procrastinate. How does it affect their work? How can developers manage procrastination? This paper presents the first investigation of procrastination among developers. We conduct an interview study with (n=15) developers across different industries to understand the process of procrastination. Using qualitative coding, we report the positive and negative effects of procrastination and factors that triggered procrastination, as perceived by participants. We validate our findings using member checking. Our results reveal 14 negative effects of procrastination on developer productivity. However, participants also reported eight positive effects, four impacting their satisfaction. We also found that participants reported three categories of factors that trigger procrastination: task-related, personal, and external. Finally, we present 19 techniques reported by our participants and studies in other domains that can help developers mitigate the impacts of procrastination. These techniques focus on raising awareness and task focus, help with task planning, and provide pathways to generate team support as a mitigation means. Based on these findings, we discuss interventions for developers and recommendations for tool building to reduce procrastination. Our paper shows that procrastination has unique effects and factors among developers compared to other populations."
     },
     {
         "venue": {
-            "name": "ICSE"
+            "name": "ICSE",
+            "full": "IEEE/ACM International Conference on Software Engineering"
         },
         "author": [
             {
@@ -63,7 +121,8 @@
     },
     {
         "venue": {
-            "name": "VL/HCC"
+            "name": "VL/HCC",
+            "full": "IEEE Symposium on Visual Languages and Human-Centric Computing"
         },
         "author": [
             {
@@ -91,7 +150,8 @@
     {
         "venue": {
             "name": "RO-MAN",
-            "track": "Late Breaking Report"
+            "track": "Late Breaking Report",
+            "full": "IEEE International Symposium on Robot and Human Interactive Communication"
         },
         "author": [
             {
@@ -124,7 +184,8 @@
     {
         "venue": {
             "name": "WWW",
-            "track": "short paper"
+            "track": "short paper",
+            "full": "The ACM Web Conference"
         },
         "author": [
             {
@@ -144,7 +205,8 @@
     {
         "venue": {
             "name": "ICSE",
-            "track": "Poster"
+            "track": "Poster",
+            "full": "IEEE/ACM International Conference on Software Engineering"
         },
         "author": [
             {
@@ -237,7 +299,8 @@
     },
     {
         "venue": {
-            "name": "Communications of the ACM"
+            "name": "CACM",
+            "full": "Communications of the ACM"
         },
         "author": [
             {
@@ -276,7 +339,8 @@
     },
     {
         "venue": {
-            "name": "CSCW"
+            "name": "CSCW",
+            "full": "ACM SIGCHI Conference on Computer-Supported Cooperative Work and Social Computing"
         },
         "author": [
             {
@@ -313,7 +377,8 @@
             }
         ],
         "venue": {
-            "name": "ESEC/FSE"
+            "name": "ESEC/FSE",
+            "full": "ACM International Conference on the Foundations of Software Engineering"
         },
         "year": 2021,
         "title": "Reel life vs. real life: how software developers share their daily life through vlogs",
@@ -322,7 +387,8 @@
     },
     {
         "venue": {
-            "name": "ACM TiiS"
+            "name": "ACM TiiS",
+            "full": "ACM Transactions on Intelligent Systems and Technology"
         },
         "author": [
             {
@@ -395,7 +461,8 @@
             }
         ],
         "venue": {
-            "name": "CHI"
+            "name": "CHI",
+            "full": "ACM Conference on Human Factors in Computing Systems"
         },
         "year": 2020,
         "title": "What's Wrong with Computational Notebooks? Pain Points, Needs, and Design Opportunities",
@@ -435,7 +502,8 @@
             }
         ],
         "venue": {
-            "name": "ICSE"
+            "name": "ICSE",
+            "full": "IEEE/ACM International Conference on Software Engineering"
         },
         "year": 2020,
         "title": "A tale from the trenches: cognitive biases and software development",
@@ -471,7 +539,8 @@
             }
         ],
         "venue": {
-            "name": "VL/HCC"
+            "name": "VL/HCC",
+            "full": "IEEE Symposium on Visual Languages and Human-Centric Computing"
         },
         "year": 2020,
         "title": "Supporting Code Comprehension via Annotations: Right Information at the Right Time and Place",
@@ -506,7 +575,8 @@
             }
         ],
         "venue": {
-            "name": "ICSE"
+            "name": "ICSE",
+            "full": "IEEE/ACM International Conference on Software Engineering"
         },
         "year": 2019,
         "title": "Latent patterns in activities: a field study of how developers manage context",
@@ -553,7 +623,8 @@
             }
         ],
         "venue": {
-            "name": "IJCAI"
+            "name": "IJCAI",
+            "full": "International Joint Conference on Artificial Intelligence"
         },
         "year": 2019,
         "title": "Explaining Reinforcement Learning to Mere Mortals: An Empirical Study",
@@ -584,7 +655,8 @@
             }
         ],
         "venue": {
-            "name": "CHASE"
+            "name": "CHASE",
+            "full": "International Conference on Cooperative and Human Aspects of Software Engineering"
         },
         "year": 2018,
         "title": "Context in programming: an investigation of how programmers create context",
@@ -607,7 +679,8 @@
             }
         ],
         "venue": {
-            "name": "VL/HCC"
+            "name": "VL/HCC",
+            "full": "IEEE Symposium on Visual Languages and Human-Centric Computing"
         },
         "year": 2017,
         "title": "What makes a task difficult? An empirical study of perceptions of task difficulty",
@@ -622,7 +695,8 @@
             }
         ],
         "venue": {
-            "name": "VL/HCC"
+            "name": "VL/HCC",
+            "full": "IEEE Symposium on Visual Languages and Human-Centric Computing"
         },
         "year": 2017,
         "title": "Context in exploratory programming: Towards a theoretical framework",

@@ -39,7 +39,7 @@ export default function Navbar() {
         </Link>
       </h1>
       <h3 className={`${styles.nav_subtitle} ${inknut_antiqua.className}`}>
-        adaptive computing experiences
+        adaptive computing experiences lab
       </h3>
       <p className={`${styles.nav_text} ${alegreya.className}`}>
         <span className={styles.highlight}>Visit us:</span> 503B, Ginsburg Hall,

@@ -14,7 +14,10 @@ export default function Opportunities() {
     >
       <div className={styles.opp_container}>
         ACE lab is{" "}
-        <i style={{ color: "#990000", fontWeight: "bold" }}>HIRING</i> ! We have
+        <i style={{ color: "#990000", fontWeight: "bold" }}>NOT HIRING</i> at
+        the moment! Please check back in a few months. Thank you for your
+        interest 🙏!
+        {/* <i style={{ color: "#990000", fontWeight: "bold" }}>HIRING</i> ! We have
         openings for PhD students in Fall 2025. If you are interested, please
         fill in{" "}
         <Link
@@ -24,11 +27,11 @@ export default function Opportunities() {
         >
           this form
         </Link>
-        !
+        ! */}
         <p
-          style={{ fontSize: "1.3rem", marginTop: "0.6rem", color: "#5a5a5a" }}
+          style={{ fontSize: "1.4rem", marginTop: "0.4rem", color: "#5a5a5a" }}
         >
-          <i>Please do not</i> email Prof. Chattopadhyay directly. She would be
+          <i>Please do NOT</i> email Prof. Chattopadhyay directly. She would be
           unable to respond promptly owing to the high volume of emails she
           receives.
         </p>

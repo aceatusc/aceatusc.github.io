@@ -68,6 +68,11 @@ export const member_avatar: { [key: string]: JSX.Element } = {
     name: "Katie Foss",
     id: "katie",
   }),
+  anna: PeopleAvatar({
+    src: "/profile/anna.jpeg",
+    name: "Anna Koster",
+    id: "anna",
+  }),
 };
 
 export const member_avatar_tooltip = Object.entries(member_avatar).reduce(
