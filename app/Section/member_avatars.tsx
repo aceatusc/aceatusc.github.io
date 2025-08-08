@@ -17,8 +17,8 @@ export function PeopleAvatar({
     <a
       href={`/#${id}`}
       style={{
-        height: small ? "2rem" : "2.4rem",
-        width: small ? "2rem" : "2.4rem",
+        height: small ? "1.6rem" : "2.4rem",
+        width: small ? "1.6rem" : "2.4rem",
         display: "block",
         position: "relative",
       }}
