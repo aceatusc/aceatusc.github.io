@@ -77,8 +77,8 @@ export const member_avatar: {
     id: "katie",
   },
   anna: {
-    src: "/profile/anna.jpeg",
-    name: "Anna Koster",
+    src: "/profile/Anna.jpeg",
+    name: "Anna Katherine Zhao",
     id: "anna",
   },
   xinyi: {
