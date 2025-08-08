@@ -64,7 +64,7 @@ const PublicationItem = ({
               }}
             >
               {a.id && a.id in member_avatar_tooltip_small && (
-                <div
+                <span
                   style={{
                     marginRight: "0.16rem",
                     display: "flex",
@@ -73,7 +73,7 @@ const PublicationItem = ({
                   }}
                 >
                   {member_avatar_tooltip_small[a.id]}
-                </div>
+                </span>
               )}
               {a.given} {a.family}
               {i === author.length - 1 ? "" : ","}
