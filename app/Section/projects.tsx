@@ -4,7 +4,7 @@ import Image from "next/image";
 import Section from "../UI/section";
 import React, { useEffect, useRef, useState } from "react";
 import { alegreya } from "../UI/font";
-import { member_avatar } from "./member_avatars";
+import { member_avatar_tooltip } from "./member_avatars";
 import project_data from "@/app/Data/projects.json";
 import styles from "@/styles/project.module.css";
 import { Tab, Tabs } from "./tab";
@@ -37,8 +37,8 @@ const ProjectCard = React.forwardRef<HTMLDivElement, ProjectDataType>(
         <div className={styles.member_container}>
           {people.map(({ key, name }) => (
             <div key={key} className={styles.member_item}>
-              {member_avatar[key]}{" "}
-              <span style={{ marginLeft: "0.4rem" }}>{name}</span>
+              {member_avatar_tooltip[key]}{" "}
+              <span style={{ marginLeft: "0.3rem" }}>{name}</span>
             </div>
           ))}
           {openings && (

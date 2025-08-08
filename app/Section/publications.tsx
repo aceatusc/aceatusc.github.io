@@ -9,10 +9,11 @@ import styles from "@/styles/publication.module.css";
 import { useState } from "react";
 import Select from "../UI/select";
 import Stack from "../UI/stack";
+import { member_avatar_tooltip_small } from "./member_avatars";
 
 interface PublicationDataType {
   title: string;
-  author: { given: string; family: string }[];
+  author: { given: string; family: string; id?: string }[];
   venue: { name: string; track?: string; full?: string };
   year: number;
   URL: string;
@@ -53,9 +54,29 @@ const PublicationItem = ({
         </Link>
         <p className={styles.pub_item__authors}>
           {author.map((a, i) => (
-            <span key={i}>
+            <span
+              key={i}
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                verticalAlign: "middle",
+                marginRight: i === author.length - 1 ? "0" : "0.4rem",
+              }}
+            >
+              {a.id && a.id in member_avatar_tooltip_small && (
+                <div
+                  style={{
+                    marginRight: "0.16rem",
+                    display: "flex",
+                    alignItems: "center",
+                    marginBottom: "0.2rem",
+                  }}
+                >
+                  {member_avatar_tooltip_small[a.id]}
+                </div>
+              )}
               {a.given} {a.family}
-              {i === author.length - 1 ? "" : ", "}
+              {i === author.length - 1 ? "" : ","}
             </span>
           ))}
         </p>
