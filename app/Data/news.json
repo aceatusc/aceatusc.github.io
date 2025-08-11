@@ -1,7 +1,7 @@
 [
     {
         "date": "Aug '25",
-        "content": "One paper got accepted to UIST '25! 🎉",
+        "content": "One paper got accepted to UIST '25! 🏄",
         "href": "https://uist.acm.org/2025/program.html",
         "people": [
             "run",
@@ -52,23 +52,6 @@
             "run"
         ],
         "href": "https://dl.acm.org/doi/10.1145/3589335.3651464"
-    },
-    {
-        "date": "Feb '24",
-        "content": "Our website is live! 🚀",
-        "people": [
-            "run",
-            "philipp",
-            "sadra",
-            "athena"
-        ]
-    },
-    {
-        "date": "Jan '24",
-        "content": "joined Salesforce as a Software Engineer. Congrats, Katie! 🎉",
-        "people": [
-            "katie"
-        ]
     },
     {
         "date": "Oct '23",
