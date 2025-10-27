@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     "The Adaptive Computing Experiences (ACE) Lab led by Prof. Souti Chattopadhyay at the University of Southern California (USC).",
   icons: ["/icon/ace.svg"],
-  authors: [{ name: "Run Huang", url: "iamhuang.run" }],
+  authors: [{ name: "Run Huang", url: "https://huang.run" }],
   keywords: [
     "hci",
     "human computer interaction",

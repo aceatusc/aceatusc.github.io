@@ -81,13 +81,13 @@
     "name": "Run Huang",
     "role": "a 2nd year Ph.D. Student.",
     "image": "/profile/run.jpeg",
-    "link": "https://iamhuang.run",
+    "link": "https://huang.run",
     "id": "run",
     "bio": "He graduated from Fudan University with a BSc in Computer Science. His research interests are in Intelligent User Interfaces.",
     "links": [
       {
         "type": "home",
-        "href": "https://iamhuang.run"
+        "href": "https://huang.run"
       },
       {
         "type": "linkedin",
@@ -123,12 +123,12 @@
   },
   {
     "name": "Xinyi Zhou",
-    "role": "a 2nd year M.S. Student",
+    "role": "a M.S. graduate",
     "image": "/profile/xinyi.jpg",
     "link": "https://www.linkedin.com/in/xinyi-zhou-cindy/",
     "alumni": true,
     "id": "xinyi",
-    "bio": "at USC. She graduated from SUSTech with a BEng in Computer Science. Her research interests are in Interaction Design and HAI.",
+    "bio": "at USC. She is now a software engineer at Channel AI. She graduated from SUSTech with a BEng in Computer Science. Her research interests are in Interaction Design and HAI.",
     "links": [
       {
         "type": "linkedin",
@@ -137,26 +137,13 @@
     ]
   },
   {
-    "name": "Meghana Bhat",
-    "role": "a 2nd year M.S. Student",
-    "image": "/profile/meghana.jpg",
-    "link": "https://www.linkedin.com/in/meghanarbhat/",
-    "id": "meghana",
-    "bio": "at USC. She graduated with a BEng in Information Science. Her interests include ideation, development and maintenance of software products, full-stack development and HCI.",
-    "links": [
-      {
-        "type": "linkedin",
-        "href": "https://www.linkedin.com/in/meghanarbhat/"
-      }
-    ]
-  },
-  {
     "name": "Anna Katherine Zhao",
-    "role": "an Undergraduate Researcher",
+    "role": "a B.S. graduate",
     "image": "/profile/Anna.jpeg",
     "link": "https://www.linkedin.com/in/anna-katherine-zhao/",
+    "alumni": true,
     "id": "anna",
-    "bio": "at USC. Anna is working with Run",
+    "bio": "at USC. She is now a designer at Ticketmaster. Anna worked with Run on the SURF project.",
     "links": [
       {
         "type": "linkedin",

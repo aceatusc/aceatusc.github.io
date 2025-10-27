@@ -86,6 +86,11 @@ export const member_avatar: {
     name: "Xinyi Zhou",
     id: "xinyi",
   },
+  jade: {
+    src: "/profile/jade.png",
+    name: "Jade Hak",
+    id: "jade",
+  },
 };
 
 export const member_avatar_tooltip = Object.entries(member_avatar).reduce(

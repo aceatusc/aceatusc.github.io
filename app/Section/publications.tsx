@@ -144,8 +144,12 @@ const PublicationItem = ({
 export default function Publications() {
   const [filterVenue, setFilterVenue] = useState("All");
   const [filterYear, setFilterYear] = useState("All");
+  const [showAll, setShowAll] = useState(false);
 
-  const pub_data_filtered = pub_data.filter((pub) => {
+  // sort publications by year (most recent first) then apply filters
+  const pub_data_sorted = [...pub_data].sort((a, b) => b.year - a.year);
+
+  const pub_data_filtered = pub_data_sorted.filter((pub) => {
     if (filterVenue !== "All") {
       if (pub.venue.name !== filterVenue) return false;
     }
@@ -154,6 +158,12 @@ export default function Publications() {
     }
     return true;
   });
+
+  const VISIBLE_COUNT = 10;
+  const hasMore = pub_data_filtered.length > VISIBLE_COUNT;
+  const visible_pubs = showAll
+    ? pub_data_filtered
+    : pub_data_filtered.slice(0, VISIBLE_COUNT);
 
   return (
     <Section
@@ -194,10 +204,30 @@ export default function Publications() {
         </Select>
       </div>
       <ul className={styles.pub_container}>
-        {pub_data_filtered.map((pub) => (
+        {visible_pubs.map((pub) => (
           <PublicationItem {...pub} key={pub.title} />
         ))}
       </ul>
+
+      {hasMore && (
+        <div style={{ textAlign: "center", marginTop: "1.2rem" }}>
+          <button
+            onClick={() => setShowAll((s) => !s)}
+            className={styles.see_more_button}
+            aria-expanded={showAll}
+            style={{
+              padding: "0.2rem 1.1rem",
+              fontSize: "1.4rem",
+              cursor: "pointer",
+              borderRadius: "10rem",
+              border: "1px solid #ccc",
+              background: "white",
+            }}
+          >
+            {showAll ? "Show less" : `Show more`}
+          </button>
+        </div>
+      )}
     </Section>
   );
 }

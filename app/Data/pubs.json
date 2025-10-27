@@ -1,6 +1,141 @@
 [
     {
         "venue": {
+            "name": "ICSE",
+            "full": "IEEE/ACM International Conference on Software Engineering"
+        },
+        "author": [
+            {
+                "given": "Xinyi",
+                "family": "Zhou",
+                "id": "xinyi"
+            },
+            {
+                "given": "Zeinabsadat",
+                "family": "Saghi",
+                "id": "athena"
+            },
+            {
+                "given": "Sadra",
+                "family": "Sabouri",
+                "id": "sadra"
+            },
+            {
+                "given": "Rahul",
+                "family": "Pandita"
+            },
+            {
+                "given": "Mollie",
+                "family": "McGuire"
+            },
+            {
+                "given": "Souti",
+                "family": "Chattopadhyay",
+                "id": "rini"
+            }
+        ],
+        "year": 2025,
+        "title": "Cognitive Biases in LLM-Assisted Software Development",
+        "URL": "#",
+        "abstract": "The widespread adoption of Large Language Models (LLMs) in software development is transforming programming from a generative activity into one dominated by prompt engineering and AI-generated solution evaluation. This shift opens the pathway for new cognitive challenges that amplify existing decision-making biases or create entirely novel ones. One such type of challenge is cognitive biases, which are thinking patterns that lead people away from logical reasoning, often resulting in errors, poor decisions, or sub-optimal actions. Despite LLMs becoming integral to modern development workflows, we lack a systematic understanding of how cognitive biases manifest and impact developer decision-making in these AI-collaborative contexts. This paper presents the first comprehensive study of cognitive biases in LLM-assisted programming using a mixed-methods approach of observational studies with n=14 student and professional developers, followed by surveys with n=22 additional developers. First, we qualitatively analyze our data based on bias categorization in the traditional non-LLM workflow reported in prior work. Our findings suggest that the traditional software development biases are inadequate to explain/understand why LLM-related actions are more likely to be biased. Through systematic analysis of 239 cognitive bias types, we develop a novel taxonomy of 15 bias categories of 90 biases specific to developer-LLM interactions, validated with cognitive psychologists. We found that 48.8% of total programmer actions are biased, and programmer-LLM interactions included 56.4% of biased actions. Based on our survey analysis, we present practical tools and practices for programmers, along with recommendations for LLM-based code generation tool builders to help mitigate cognitive biases in human-AI programming."
+    },
+    {
+        "venue": {
+            "name": "Koli Calling",
+            "full": "International Conference on Computing Education Research"
+        },
+        "author": [
+            {
+                "given": "Jade",
+                "family": "Hak",
+                "id": "jade"
+            },
+            {
+                "given": "Nathaniel Lam",
+                "family": "Johnson"
+            },
+            {
+                "given": "Matin",
+                "family": "Amoozadeh"
+            },
+            {
+                "given": "Mohammad Amin",
+                "family": "Alipour"
+            },
+            {
+                "given": "Souti",
+                "family": "Chattopadhyay",
+                "id": "rini"
+            }
+        ],
+        "year": 2025,
+        "URL": "https://arxiv.org/abs/2510.04986",
+        "title": "Observing Without Doing: Pseudo-Apprenticeship Patterns in Student LLM Use",
+        "abstract": "Large Language Models (LLMs) such as ChatGPT have quickly become part of student programmers' toolkits, whether allowed by instructors or not. This paper examines how introductory programming (CS1) students integrate LLMs into their problem-solving processes. We conducted a mixed-methods study with 14 undergraduates completing three programming tasks while thinking aloud and permitted to access any resources they choose. The tasks varied in open-endedness and familiarity to the participants and were followed by surveys and interviews. We find that students frequently adopt a pattern we call pseudo-apprenticeship, where students engage attentively with expert-level solutions provided by LLMs but fail to participate in the stages of cognitive apprenticeship that promote independent problem-solving. This pattern was augmented by disconnects between students' intentions, actions, and self-perceived behavior when using LLMs. We offer design and instructional interventions for promoting learning and addressing the patterns of dependent AI use observed."
+    },
+    {
+        "venue": {
+            "name": "Koli Calling",
+            "full": "International Conference on Computing Education Research"
+        },
+        "author": [
+            {
+                "given": "Ali",
+                "family": "Alfageeh"
+            },
+            {
+                "given": "Sadegh Almahdi Kazemi",
+                "family": "Zarkouei"
+            },
+            {
+                "given": "Daye",
+                "family": "Nam"
+            },
+            {
+                "given": "Daniel",
+                "family": "Prol"
+            },
+            {
+                "given": "Matin",
+                "family": "Amoozadeh"
+            },
+            {
+                "given": "Souti",
+                "family": "Chattopadhyay",
+                "id": "rini"
+            },
+            {
+                "given": "James",
+                "family": "Prather"
+            },
+            {
+                "given": "Paul",
+                "family": "Denny"
+            },
+            {
+                "given": "Juho",
+                "family": "Leinonen"
+            },
+            {
+                "given": "Michael",
+                "family": "Hilton"
+            },
+            {
+                "given": "Sruti Srinivasa",
+                "family": "Ragavan"
+            },
+            {
+                "given": "Mohammad Amin",
+                "family": "Alipour"
+            }
+        ],
+        "year": 2025,
+        "URL": "#",
+        "title": "From Prompts to Propositions: A Logic-Based Lens on Student-LLM Interactions",
+        "abstract": ""
+    },
+    {
+        "venue": {
             "name": "UIST",
             "full": "ACM Symposium on User Interface Software and Technology"
         },
@@ -31,7 +166,7 @@
                 "id": "rini"
             }
         ],
-        "URL": "#",
+        "URL": "https://aceatusc.github.io/surf",
         "year": 2025,
         "abstract": "Researchers actively engage in informal discussions about academic papers on social media. They share insights, promote papers, and discuss emerging ideas in an engaging and accessible way. Yet, this rich source of scholarly discourse is often isolated from the paper reading process and remains underutilized. A natural question thus arises: What if we bring these peer discussions on social media into the reading experience? What might be the benefits of reading research papers alongside informal social insights? To explore the design space of such integration, we conducted a formative study with eight researchers. Participants recognized the value of social media in expanding their perspectives and connecting with fellow researchers. However, they also reported significant distraction and cognitive overload when confronted with streams of noisy, unstructured social media comments. Guided by the design goals derived from their feedback, we introduce SURF, a novel reading interface that enriches academic papers with Social Understanding of Research Findings. SURF organizes social media clutter into digestible threads and presents them contextually within the paper, allowing readers to seamlessly access peer insights without disrupting their reading process. In a within-subjects usability study (N=18), participants achieved significantly deeper comprehension and higher self-efficacy with SURF, while reporting lower cognitive load. They also noted SURF's various benefits beyond paper reading, such as facilitating literature review and fostering social engagement within the academic community. Some participants envisioned SURF and academic social media as a potential supplement to the traditional peer‑review process.",
         "title": "Beyond the Page: Enriching Academic Paper Reading with Social Media Discussions"

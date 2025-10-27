@@ -32,7 +32,7 @@ function NewsItem({ date, content, people, href }: NewsDataType) {
       ))}
       :{" "}
       {href ? (
-        <Link href={href}>
+        <Link href={href} target="_blank">
           {content} [<span style={{ color: "#990000" }}>+</span>]
         </Link>
       ) : (

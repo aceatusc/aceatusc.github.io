@@ -9,7 +9,7 @@ export default function Footer() {
       <div>
         © Copyright 2024 ACE Lab. Website developed by{" "}
         <Link
-          href="https://iamhuang.run"
+          href="https://huang.run"
           style={{
             textDecoration: "underline",
             color: "#990000",

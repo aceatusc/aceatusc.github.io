@@ -13,10 +13,12 @@ export default function Opportunities() {
       className={alegreya.className}
     >
       <div className={styles.opp_container}>
-        ACE lab is{" "}
-        <i style={{ color: "#990000", fontWeight: "bold" }}>NOT HIRING</i> at
-        the moment! Please check back in a few months. Thank you for your
-        interest 🙏!
+        ACE lab currently has{" "}
+        <i style={{ color: "#990000", fontWeight: "bold" }}>openings</i> for{" "}
+        <i style={{ color: "#990000", fontWeight: "bold" }}>two PhD</i>{" "}
+        positions! If you are interested, please apply through the USC graduate
+        admission portal and mention Prof. Chattopadhyay's name in your
+        application.
         {/* <i style={{ color: "#990000", fontWeight: "bold" }}>HIRING</i> ! We have
         openings for PhD students in Fall 2025. If you are interested, please
         fill in{" "}
@@ -29,11 +31,11 @@ export default function Opportunities() {
         </Link>
         ! */}
         <p
-          style={{ fontSize: "1.4rem", marginTop: "0.4rem", color: "#5a5a5a" }}
+          style={{ fontSize: "1.4rem", marginTop: "0.6rem", color: "#5a5a5a" }}
         >
           <i>Please do NOT</i> email Prof. Chattopadhyay directly. She would be
           unable to respond promptly owing to the high volume of emails she
-          receives.
+          receives :(
         </p>
         {/* <div className={styles.opp_image}>
           <Image
