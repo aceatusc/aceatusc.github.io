@@ -17,8 +17,7 @@ export default function Opportunities() {
         <i style={{ color: "#990000", fontWeight: "bold" }}>openings</i> for{" "}
         <i style={{ color: "#990000", fontWeight: "bold" }}>two PhD</i>{" "}
         positions! If you are interested, please apply through the USC graduate
-        admission portal and mention Prof. Chattopadhyay's name in your
-        application.
+        admission portal and mention Prof. Chattopadhyay in your application.
         {/* <i style={{ color: "#990000", fontWeight: "bold" }}>HIRING</i> ! We have
         openings for PhD students in Fall 2025. If you are interested, please
         fill in{" "}
