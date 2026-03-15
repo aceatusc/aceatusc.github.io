@@ -61,6 +61,7 @@
     "image": "/profile/philipp.jpeg",
     "link": "https://philippnoah.github.io/",
     "id": "philipp",
+    "alumni": true,
     "bio": "He graduated from University of Toronto with a BSc in Computer Science. His research interests are in Codebase agents and HAI.",
     "links": [
       {
