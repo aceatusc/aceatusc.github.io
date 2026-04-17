@@ -123,6 +123,66 @@
     ]
   },
   {
+    "name": "Sujay Maladi",
+    "role": "a M.S. Researcher",
+    "image": "/profile/sujay.png",
+    "link": "https://www.linkedin.com/in/sujay-maladi",
+    "alumni": false,
+    "id": "sujay",
+    "bio": "at USC.",
+    "links": [
+      {
+        "type": "linkedin",
+        "href": "https://www.linkedin.com/in/sujay-maladi"
+      }
+    ]
+  },
+  {
+    "name": "Allen Jiang",
+    "role": "an Undergraduate Researcher",
+    "image": "/profile/allen.jpg",
+    "link": "https://www.linkedin.com/in/allen-jiang0421/",
+    "alumni": false,
+    "id": "allen",
+    "bio": "at USC.",
+    "links": [
+      {
+        "type": "linkedin",
+        "href": "https://www.linkedin.com/in/allen-jiang0421/"
+      }
+    ]
+  },
+  {
+    "name": "Agastya Bassi",
+    "role": "an Undergraduate Researcher",
+    "image": "/profile/agastya.jpg",
+    "link": "https://www.linkedin.com/in/agastya-bassi/",
+    "alumni": false,
+    "id": "agastya",
+    "bio": "at USC.",
+    "links": [
+      {
+        "type": "linkedin",
+        "href": "https://www.linkedin.com/in/agastya-bassi/"
+      }
+    ]
+  },
+  {
+    "name": "Micah Muir",
+    "role": "an Undergraduate Researcher",
+    "image": "/profile/micah.png",
+    "link": "https://www.linkedin.com/in/micah-muir-115228313/",
+    "alumni": false,
+    "id": "micah",
+    "bio": "at USC.",
+    "links": [
+      {
+        "type": "linkedin",
+        "href": "https://www.linkedin.com/in/micah-muir-115228313/"
+      }
+    ]
+  },
+  {
     "name": "Xinyi Zhou",
     "role": "a M.S. graduate",
     "image": "/profile/xinyi.jpg",
