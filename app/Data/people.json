@@ -183,6 +183,21 @@
     ]
   },
   {
+    "name": "Anton George",
+    "role": "a M.S. Researcher",
+    "image": "/profile/anton.jpg",
+    "link": "https://www.linkedin.com/in/antongeo",
+    "alumni": true,
+    "id": "anton",
+    "bio": "at USC.",
+    "links": [
+      {
+        "type": "linkedin",
+        "href": "https://www.linkedin.com/in/antongeo"
+      }
+    ]
+  },
+  {
     "name": "Xinyi Zhou",
     "role": "a M.S. graduate",
     "image": "/profile/xinyi.jpg",
