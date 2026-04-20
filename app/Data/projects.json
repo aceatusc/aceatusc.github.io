@@ -1,19 +1,19 @@
 [
   {
-    "name": "Sustainable Software Engineering",
-    "description": "Redefining the notion of sustainability for software projects, investigate various open-source and industrial projects to derive metrics, and help future engineers build sustainable software.",
+    "name": "LLM-Powered Reasoning Graph Assistant",
+    "description": "This project develops an intelligent tool that constructs dynamic reasoning graphs from messy, real-time think-aloud data. Leveraging large language models as the foundation, the system creates interactive node-based representations of human reasoning processes as they unfold. By visualizing and analyzing these reasoning structures, the tool identifies cognitive gaps, logical inconsistencies, and unexplored solution paths, providing real-time nudges to support critical thinking and idea exploration. This framework enables scaffolded reasoning support that adapts to individual thought patterns.",
     "area": [
-      "Sustainability",
-      "Software Engineering"
+      "Cognitive Computing",
+      "Knowledge Representation"
     ],
     "people": [
       {
-        "name": "Katie Foss",
-        "key": "katie"
-      },
-      {
         "name": "Athena Saghi",
         "key": "athena"
+      },
+      {
+        "name": "Varun Agrawal",
+        "key": "varun"
       },
       {
         "name": "Souti Chattopadhyay",
@@ -22,10 +22,11 @@
     ]
   },
   {
-    "name": "Cognitive control and intervention in autonomous systems",
-    "description": "To design good collaboration in human-autonomous system, we need to understand the cognitive barriers in humans and provide good explanation/intervention systems. In these projects, we look at different autonomous systems and study how human cognition needs support for seamless and safe operations.",
+    "name": "Brain Dynamic Analysis in AI-Assisted Programming",
+    "description": "This project investigates how artificial intelligence assistants like Copilot influence programmer creativity and cognitive dynamics. Using 24-channel EEG recordings, we analyze brain activity patterns when programmers engage in creative coding tasks under two conditions: with AI assistance enabled and without any tools. By examining neural correlates throughout the programming session, we explore how large language model integration affects creative problem-solving, cognitive engagement, and the coordination of different brain regions during code generation.",
     "area": [
-      "Cognitive Computing"
+      "Cognitive Computing",
+      "Cognitive Neuroscience"
     ],
     "people": [
       {
@@ -35,6 +36,10 @@
       {
         "name": "Souti Chattopadhyay",
         "key": "rini"
+      },
+      {
+        "name": "Agastya Bassi",
+        "key": "agastya"
       }
     ]
   },
@@ -42,7 +47,9 @@
     "name": "Human Cognitive Biases and LLM Scalable Oversight",
     "description": "This project investigates how human cognitive biases affects the transition from solution-generative to solution-evaluative tasks in AI-assisted workflows. Current LLMs aim to provide a seamless user experience that inadvertently reduces critical thinking, making human oversight less effective. The research develops taxonomies and tools to re-introduce productive friction, ensuring that humans remain cognitively engaged and capable of auditing complex model outputs.",
     "area": [
-      "AI Safety", "Software Engineering", "Cognitive Psychology"
+      "AI Safety",
+      "Software Engineering",
+      "Cognitive Psychology"
     ],
     "people": [
       {
