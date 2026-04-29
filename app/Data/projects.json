@@ -61,5 +61,25 @@
         "key": "rini"
       }
     ]
+  },
+  {
+    "name": "Supporting Collaborative Thinking in Pair Programming",
+    "description": "This project investigates how to better support productive discussion in pair programming. It focuses on how programming environments can encourage partners to explain their reasoning, respond to each other’s ideas, and think critically together while coding. The research combines formative studies to guide the design of new tools with evaluation studies that examine how those tools shape collaboration.",
+    "area": [
+      "Computer-Supported Collaborative Learning",
+      "Learning Sciences",
+      "Computing Education",
+      "Human-Computer Interaction"
+    ],
+    "people": [
+      {
+        "name": "Jade H",
+        "key": "jade"
+      },
+      {
+        "name": "Souti Chattopadhyay",
+        "key": "rini"
+      }
+    ]
   }
 ]
