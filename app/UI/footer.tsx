@@ -5,9 +5,9 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className={`${alegreya.className} ${styles.footer_container}`}>
-      <div style={{ marginRight: "2.4rem" }}>Last updated: Aug 2025</div>
+      <div style={{ marginRight: "2.4rem" }}>Last updated: May 2026</div>
       <div>
-        © Copyright 2024 ACE Lab. Website developed by{" "}
+        © Copyright 2026 ACE Lab. Website developed by{" "}
         <Link
           href="https://huang.run"
           style={{

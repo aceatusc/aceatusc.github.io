@@ -2,7 +2,7 @@
     {
         "date": "Oct '25",
         "content": "One paper got accepted to ICSE '26! 🎉",
-        "href": "#publication",
+        "href": "https://arxiv.org/abs/2601.08045",
         "people": [
             "xinyi",
             "athena",
@@ -12,7 +12,7 @@
     {
         "date": "Oct '25",
         "content": "Two papers got accepted to Koli Calling '25! 📢",
-        "href": "#publication",
+        "href": "https://dl.acm.org/doi/full/10.1145/3769994.3770027",
         "people": [
             "jade",
             "rini"

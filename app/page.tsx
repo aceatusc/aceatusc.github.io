@@ -15,8 +15,8 @@ export default function Home() {
       <Hero />
       <People id="team" title="our team" data={current_member} />
       <Opportunities />
-      <Publications />
       <Projects />
+      <Publications />
       <People id="alumni" title="ace alumni" data={alumni} small />
     </Fragment>
   );
