@@ -13,11 +13,12 @@ export default function Opportunities() {
       className={alegreya.className}
     >
       <div className={styles.opp_container}>
-        ACE lab currently has{" "}
+        ACE lab will have{" "}
         <i style={{ color: "#990000", fontWeight: "bold" }}>openings</i> for{" "}
-        <i style={{ color: "#990000", fontWeight: "bold" }}>two PhD</i>{" "}
-        positions! If you are interested, please apply through the USC graduate
-        admission portal and mention Prof. Chattopadhyay in your application.
+        <span style={{ color: "#990000", fontWeight: "bold" }}>PhD</span>{" "}
+        position(s) in the next cycle! If you are interested, please apply
+        through the USC graduate admission portal and mention Prof.
+        Chattopadhyay in your application.
         {/* <i style={{ color: "#990000", fontWeight: "bold" }}>HIRING</i> ! We have
         openings for PhD students in Fall 2025. If you are interested, please
         fill in{" "}

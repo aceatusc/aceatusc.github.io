@@ -61,26 +61,27 @@ export default function Hero() {
         >
           We are NOT hiring.
         </Link>{" "} */}
-        <p style={{
+        {/* <p
+          style={{
             fontSize: "1.4rem",
             fontStyle: "italic",
             fontWeight: 500,
             marginBottom: "1rem",
             lineHeight: 1.3,
-          }}>
+          }}
+        >
           We believe AI should think with you, not for you.
-        </p>
-        At the ACE Lab at USC, we investigate the frontier of Human-AI
-        Interaction, with a focus on how AI can be made to align with rather
-        than disrupt the way people think and work. Whether {"you're"} a writer,
-        a researcher, a programmer, or a doctor, the AI tools you use today
-        {"weren't"} built around how you actually think. We{"'re"} changing
-        that. We study how AI tools can be designed to support rather than
-        shortcut human thinking. Through empirical studies and tool design, we
-        develop AI systems that{" "}
-        <span className={styles.highlight}>amplify cognition</span>,
-        <span className={styles.highlight}>cognitive friction</span>, and
-        keep humans in control of what matters most:{" "}
+        </p> */}
+        At the ACE Lab, we investigate the frontier of{" "}
+        <span className={styles.highlight}>Human-AI Interaction</span>, with a
+        focus on how AI can be made to support rather than shortcut the way
+        people think and work. Whether {"you're"} a writer, a researcher, a
+        programmer, or a doctor, the AI tools you use today {"weren't"} built
+        around how you actually think. We aim to change that. Through empirical
+        studies and tool design, we develop AI systems that{" "}
+        <span className={styles.highlight}>amplify cognition</span>, reduce{" "}
+        <span className={styles.highlight}>cognitive friction</span>, and keep
+        humans in control of what matters most:{" "}
         <span className={styles.highlight}>the ideas</span>.
       </Section>
       <Section

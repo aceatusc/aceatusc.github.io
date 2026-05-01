@@ -91,6 +91,11 @@ export const member_avatar: {
     name: "Jade Hak",
     id: "jade",
   },
+  agastya: {
+    src: "/profile/agastya.png",
+    name: "Agastya Bassi",
+    id: "agastya",
+  },
 };
 
 export const member_avatar_tooltip = Object.entries(member_avatar).reduce(
@@ -102,7 +107,7 @@ export const member_avatar_tooltip = Object.entries(member_avatar).reduce(
     );
     return acc;
   },
-  {}
+  {},
 );
 
 export const member_avatar_tooltip_small = Object.entries(member_avatar).reduce(
@@ -121,5 +126,5 @@ export const member_avatar_tooltip_small = Object.entries(member_avatar).reduce(
     );
     return acc;
   },
-  {}
+  {},
 );
