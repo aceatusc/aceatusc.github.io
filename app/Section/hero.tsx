@@ -61,20 +61,27 @@ export default function Hero() {
         >
           We are NOT hiring.
         </Link>{" "} */}
-        At the ACE Lab, we are working to transform computing experiences by
-        adapting {"users'"} experiences to their cognitive processes. In{" "}
-        {"today's "}world, <span className={styles.highlight}>Computing</span>{" "}
-        has evolved beyond programmatic and mathematical operations.{" "}
-        {"People's"} interactions with computers range from developers building
-        software to people monitoring their heartbeat during exercises on
-        wearable devices. However, these experiences are often unintuitive,
-        stale, and require humans to adapt to the machine. We aim to build
-        experiences that{" "}
-        <span className={styles.highlight}>adapt to the users</span>, for
-        activities ranging from programming to lifestyle. Several of our
-        award-winning research uses empirical, qualitative, and quantitative
-        means to drive impactful change to{" "}
-        <span className={styles.highlight}>real-world products</span>.
+        <p style={{
+            fontSize: "1.4rem",
+            fontStyle: "italic",
+            fontWeight: 500,
+            marginBottom: "1rem",
+            lineHeight: 1.3,
+          }}>
+          We believe AI should think with you, not for you.
+        </p>
+        At the ACE Lab at USC, we investigate the frontier of Human-AI
+        Interaction, with a focus on how AI can be made to align with rather
+        than disrupt the way people think and work. Whether {"you're"} a writer,
+        a researcher, a programmer, or a doctor, the AI tools you use today
+        {"weren't"} built around how you actually think. We{"'re"} changing
+        that. We study how AI tools can be designed to support rather than
+        shortcut human thinking. Through empirical studies and tool design, we
+        develop AI systems that{" "}
+        <span className={styles.highlight}>amplify cognition</span>,
+        <span className={styles.highlight}>cognitive friction</span>, and
+        keep humans in control of what matters most:{" "}
+        <span className={styles.highlight}>the ideas</span>.
       </Section>
       <Section
         id="news"
