@@ -38,7 +38,7 @@ export default function RootLayout({
           <Navbar />
         </header>
         <main style={{ padding: "0 5vw", overflowX: "hidden" }}>
-          {children}
+          <div className="page-container">{children}</div>
         </main>
         <Footer />
         <Script
