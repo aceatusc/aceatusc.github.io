@@ -7,5 +7,5 @@ export const inknut_antiqua = Inknut_Antiqua({
 
 export const alegreya = Alegreya({
   subsets: ["latin"],
-  weight: ["400", "500"],
+  // weight: ["400", "500", "600", "700", "800", "900"],
 });

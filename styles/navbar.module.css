@@ -2,53 +2,53 @@
 @value primary, secondary, grey from variables;
 
 .nav_container {
-    width: 100%;
-    text-align: center;
-    padding: 6.4rem 1.6rem 1.2rem 1.6rem;
+  width: 100%;
+  text-align: center;
+  padding: 6.4rem 1.6rem 1.2rem 1.6rem;
 }
 
 .nav_title {
-    font-size: 2.7rem;
-    position: relative;
-    color: #222;
+  font-size: 2.7rem;
+  position: relative;
+  color: #222;
 }
 
 .nav_subtitle {
-    font-size: 1.44rem;
-    margin-top: 0.8rem;
-    margin-bottom: 1.6rem;
-    color: primary;
+  font-size: 1.44rem;
+  margin-top: 0.3rem;
+  margin-bottom: 1.6rem;
+  color: primary;
 }
 
 .nav_social {
-    margin-top: 1.2rem;
-    justify-content: center;
+  margin-top: 1rem;
+  justify-content: center;
 }
 
 .nav_text {
-    font-size: 1.2rem;
-    color: #3a3a3a;
+  font-size: 1.2rem;
+  color: #3a3a3a;
 }
 
 .helper_text {
-    text-decoration: underline !important;
-    color: #888 !important;
-    cursor: pointer;
-    font-style: italic;
+  text-decoration: underline !important;
+  color: #888 !important;
+  cursor: pointer;
+  font-style: italic;
 }
 
 .highlight {
-    text-decoration: wavy underline;
-    text-decoration-color: secondary;
-    text-underline-offset: 10%;
+  text-decoration: wavy underline;
+  text-decoration-color: secondary;
+  text-underline-offset: 10%;
 }
 
 @media (max-width: 600px) {
-    .nav_title {
-        font-size: 2.4rem;
-    }
+  .nav_title {
+    font-size: 2.4rem;
+  }
 
-    .nav_subtitle {
-        font-size: 1.2rem;
-    }
+  .nav_subtitle {
+    font-size: 1.2rem;
+  }
 }

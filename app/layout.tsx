@@ -3,8 +3,6 @@ import Navbar from "./UI/navbar";
 import "@/styles/globals.css";
 import Footer from "./UI/footer";
 import Script from "next/script";
-import Link from "next/link";
-import { alegreya } from "./UI/font";
 
 export const metadata: Metadata = {
   title: "ACE Lab @USC",
@@ -33,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body style={{ width: "100%", backgroundColor: "white" }}>
+      <body style={{ width: "100%" }}>
         <header>
           <Navbar />
         </header>

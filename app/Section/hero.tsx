@@ -12,9 +12,32 @@ interface NewsDataType {
   content: string;
   people: string[];
   href?: string;
+  highlight?: string;
+  important?: boolean;
 }
 
-function NewsItem({ date, content, people, href }: NewsDataType) {
+function renderWithHighlight(
+  content: string,
+  highlight?: string,
+  important?: boolean
+) {
+  if (!highlight) return content;
+  const idx = content.indexOf(highlight);
+  if (idx === -1) return content;
+  return (
+    <>
+      {content.slice(0, idx)}
+      <span
+        className={important ? styles.news_highlight : styles.highlight}
+      >
+        {content.slice(idx, idx + highlight.length)}
+      </span>
+      {content.slice(idx + highlight.length)}
+    </>
+  );
+}
+
+function NewsItem({ date, content, people, href, highlight, important }: NewsDataType) {
   return (
     <div className={styles.news_item}>
       <span className={styles.news_date}>{date}</span>{" "}
@@ -33,10 +56,11 @@ function NewsItem({ date, content, people, href }: NewsDataType) {
       :{" "}
       {href ? (
         <Link href={href} target="_blank">
-          {content} [<span style={{ color: "#990000" }}>+</span>]
+          {renderWithHighlight(content, highlight, important)} [
+          <span style={{ color: "#990000" }}>+</span>]
         </Link>
       ) : (
-        content
+        renderWithHighlight(content, highlight, important)
       )}
     </div>
   );

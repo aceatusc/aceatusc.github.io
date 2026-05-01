@@ -48,8 +48,8 @@ export default function Section({
           </div>
           <h5
             style={{
-              fontSize: "2rem",
-              fontWeight: 300,
+              fontSize: "1.8rem",
+              fontWeight: 600,
               color: "#2a2a2a",
               display: "block",
               marginLeft: "0.6rem",

@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <Fragment>
       <Hero />
-      <People id="team" title="our team" data={current_member} />
+      <People id="team" title="ACE team" data={current_member} />
       <Opportunities />
       <Projects />
       <Publications />

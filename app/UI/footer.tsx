@@ -15,7 +15,7 @@ export default function Footer() {
             color: "#990000",
           }}
         >
-          ACE Lab members
+          Run Huang
         </Link>
         , inspired by the original design of the{" "}
         <Link

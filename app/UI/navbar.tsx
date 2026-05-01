@@ -62,7 +62,7 @@ export default function Navbar() {
           California
         </Link>
       </p>
-      <Stack className={styles.nav_social} orient="horizontal" gap="2rem">
+      {/* <Stack className={styles.nav_social} orient="horizontal" gap="2rem">
         {social_links.map((link, index) => (
           <Link
             href={link.href}
@@ -82,7 +82,7 @@ export default function Navbar() {
             />
           </Link>
         ))}
-      </Stack>
+      </Stack> */}
     </nav>
   );
 }
