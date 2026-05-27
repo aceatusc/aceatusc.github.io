@@ -1,6 +1,36 @@
 [
     {
         "venue": {
+            "name": "JMIR",
+            "full": "Journal of Medical Internet Research (Q1, Impact Factor: 6.0)"
+        },
+        "author": [
+            {
+                "given": "Run",
+                "family": "Huang",
+                "id": "run"
+            },
+            {
+                "given": "Joseph",
+                "family": "Cecil"
+            },
+            {
+                "given": "Marjorie",
+                "family": "Freedman"
+            },
+            {
+                "given": "Souti",
+                "family": "Chattopadhyay",
+                "id": "rini"
+            }
+        ],
+        "year": 2026,
+        "title": "Quantifying Factors that Drive Trust and Satisfaction with AI Health Chatbots: A Mixed-Methods Vignette Survey of Caregivers for Pediatric Infectious Diseases",
+        "URL": "#",
+        "abstract": "Background: AI chatbots are increasingly used to seek immediate medical advice, yet evaluating the quality of their responses from the users' perspectives remains an open challenge. Current evaluation frameworks rely primarily on expert-defined dimensions that have not been empirically validated with end users. It is unclear which dimensions most strongly shape user satisfaction and whether they reflect the criteria that users apply in real-world interactions. Objective: This study investigated how commonly used evaluation dimensions influence caregivers' satisfaction with AI chatbot responses to pediatric health questions and uncovered unmet user needs beyond existing frameworks. Methods: We conducted a mixed-methods vignette survey with 191 caregivers recruited through Prolific. Participants evaluated GPT-4o responses to a set of clinician-approved pediatric health questions across eight dimensions and rated overall satisfaction. We quantified the influence of each dimension on overall satisfaction using a Cumulative Link Mixed Model (CLMM) and performed an inductive thematic analysis of open-ended comments to identify potential gaps in established frameworks. Results: A total of 191 caregivers evaluated 1,146 chatbot responses. Initially, caregivers rated Accuracy and Credibility as the most important dimensions. However, CLMM analysis identified Usefulness as the strongest driver of overall satisfaction (OR 2.53, 95% CI 1.95-3.27; P<.001), followed by Thoroughness (OR 2.15, 95% CI 1.69-2.73; P<.001). Comprehensiveness did not significantly influence satisfaction (OR 1.05, 95% CI 0.82-1.33; P=.71). Qualitative feedback helped explain this: participants frequently criticized responses as \"too long\" and expressed a preference for concise, actionable guidance. Empathy/Warmth was significantly associated with overall satisfaction (OR 1.48, 95% CI 1.27–1.72; P<.001) but elicited polarized reactions among participants (Van der Eijk agreement μ=0.38): some caregivers valued emotional support, while others found AI-generated empathy insincere and undermines the chatbot's credibility. Qualitative data revealed that medical disclaimers increased trust in higher-risk situations but reduced confidence in low-stakes scenarios. Conclusions: Existing evaluation frameworks only partially capture how caregivers judge medical chatbots. Caregivers value actionable guidance, credible references, and clear reasoning over lengthy, exhaustive detail. Rather than passively receiving dense information, they preferred a more interactive communication style, where the chatbot would proactively suggest follow-up options so users could steer the conversation toward what they actually needed. Furthermore, caregivers do not always react positively to empathetic tone and disclaimers, as such qualities can come across as insincere or unnecessary in the wrong context. Ultimately, future medical chatbots should move away from a one-size-fits-all communication style and instead should adapt to the individual user, support ongoing conversation, and recognize when empathy or caution is warranted. Evaluation protocols should likewise assess these qualities dynamically."
+    },
+    {
+        "venue": {
             "name": "ICSE",
             "full": "IEEE/ACM International Conference on Software Engineering"
         },
