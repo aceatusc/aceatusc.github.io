@@ -1,8 +1,35 @@
 [
     {
         "venue": {
+            "name": "TOSEM",
+            "full": "ACM Transactions on Software Engineering and Methodology"
+        },
+        "author": [
+            {
+                "given": "Athena",
+                "family": "Saghi",
+                "id": "athena"
+            },
+            {
+                "given": "Run",
+                "family": "Huang",
+                "id": "run"
+            },
+            {
+                "given": "Souti",
+                "family": "Chattopadhyay",
+                "id": "rini"
+            }
+        ],
+        "year": 2026,
+        "title": "\"Like Taking the Path of Least Resistance\": Exploring the Impact of LLM Interaction on the Creative Process of Programming",
+        "URL": "https://arxiv.org/abs/2605.13776",
+        "abstract": "Creativity is fundamentally human. As AI takes on more of the generative work that once required human imagination, despite documented limitations in creative ability, a critical question emerges: How does GenAI affect users' creativity? Through a within-subject study followed by retrospective interviews with (N=20) programmers, we investigated the impact of LLMs on participants' process of creative thinking in programming and the creativity of generated solutions. Across two conditions (LLM-assisted vs. unassisted), participants using LLMs had significantly shorter idea-generation periods (p=0.0004), leading to fewer creative moments (p=0.002). Qualitative analysis of participants' interactions and interviews revealed four different human-LLM collaboration modes supporting various problem-solving strategies. However, a comparative analysis of the generated solutions shows that while LLMs can help generate more correct and functional code, their solutions contain roughly the same number of ideas as participant-generated ones. Based on our findings, we discuss design implications and considerations for effectively using LLMs to support user creativity."
+    },
+    {
+        "venue": {
             "name": "JMIR",
-            "full": "Journal of Medical Internet Research (Q1, Impact Factor: 8.2)"
+            "full": "Journal of Medical Internet Research"
         },
         "author": [
             {

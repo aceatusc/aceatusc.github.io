@@ -1,5 +1,14 @@
 [
     {
+        "date": "Oct '26",
+        "content": "One paper got accepted to ACM TOSEM Journal! 🍾",
+        "href": "https://arxiv.org/abs/2605.13776",
+        "people": [
+            "athena",
+            "run"
+        ]
+    },
+    {
         "date": "Apr '26",
         "content": "Prof. Chattopadhyay received a NSF CAREER award! 🔥",
         "href": "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2543986",
@@ -8,14 +17,6 @@
         ],
         "highlight": "NSF CAREER",
         "important": true
-    },
-    {
-        "date": "Jul '26",
-        "content": "One paper got accepted to JMIR! 🍾",
-        "href": "https://www.jmir.org/2026/1/e88126",
-        "people": [
-            "run"
-        ]
     },
     {
         "date": "Oct '25",
