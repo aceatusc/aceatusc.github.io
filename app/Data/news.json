@@ -1,5 +1,16 @@
 [
     {
+        "date": "Nov '26",
+        "content": "One paper got accepted to IUI '27! 🎉",
+        "people": [
+            "sadra",
+            "athena",
+            "run",
+            "sujay"
+        ],
+        "highlight": "IUI"
+    },
+    {
         "date": "Oct '26",
         "content": "One paper got accepted to ACM TOSEM Journal! 🍾",
         "href": "https://arxiv.org/abs/2605.13776",

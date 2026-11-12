@@ -96,6 +96,16 @@ export const member_avatar: {
     name: "Agastya Bassi",
     id: "agastya",
   },
+  sujay: {
+    src: "/profile/sujay.png",
+    name: "Sujay Maladi",
+    id: "sujay",
+  },
+  allen: {
+    src: "/profile/allen.jpg",
+    name: "Allen Jiang",
+    id: "allen",
+  },
 };
 
 export const member_avatar_tooltip = Object.entries(member_avatar).reduce(

@@ -1,12 +1,57 @@
 [
     {
         "venue": {
+            "name": "IUI",
+            "full": "ACM Conference on Intelligent User Interfaces"
+        },
+        "author": [
+            {
+                "given": "Sadra",
+                "family": "Sabouri",
+                "id": "sadra"
+            },
+            {
+                "given": "Zeinabsadat",
+                "family": "Saghi",
+                "id": "athena"
+            },
+            {
+                "given": "Run",
+                "family": "Huang",
+                "id": "run"
+            },
+            {
+                "given": "Sujay",
+                "family": "Maladi",
+                "id": "sujay"
+            },
+            {
+                "given": "Esmeralda",
+                "family": "Eufracio"
+            },
+            {
+                "given": "Sumit",
+                "family": "Gulwani"
+            },
+            {
+                "given": "Souti",
+                "family": "Chattopadhyay",
+                "id": "rini"
+            }
+        ],
+        "title": "Pista: Path-Preserving Steering of Spreadsheet Agents",
+        "year": 2027,
+        "URL": "#",
+        "abstract": "AI agents execute multi-step complex tasks directly on artifacts that users own and are accountable for. Interfaces for these agents are progressing from returning only a final output, to surfacing the execution as a sequence of steps, to letting users edit a step in place. Editing in place, however, overwrites the path an edit replaces: the steps that followed are regenerated, and the user gives up a sequence they have not yet evaluated for one they cannot preview. Therefore, users hesitate to intervene where it would be most helpful. We present Pista, a spreadsheet agent that enables users to branch: an edit at any step forks the execution; both paths persist, and users can move between them to compare outcomes. It also pairs each step with an in-situ explanation and surfaces the formula, source range, and output range behind every change. In a formative study (𝑁 = 8) with a stepwise agent probe and a within-subjects evaluation (𝑁 = 16) against a baseline agent, we find gains on both. At matched task success, participants explained the agent’s changes in significantly greater depth (4.38 vs. 2.94, 𝑝 = .015) and identified more issues (2.12 vs. 1.75). They also intervened differently: branching was the most-used feature (15 of 16 participants, median 3 uses per session), and 13 of those 15 used it to check a regenerated path against their expectations. Step-specific edits displaced whole-task re-prompts, cutting re-prompts (2.19 vs. 4.00, 𝑝 < .001) and halving the words each correction took (12.90 vs. 27.63, 𝑝 < .001), because an edit inherits its context from the step it attaches to. Understanding an agent’s actions is therefore not sufficient for steerability. We should provide a safe mechanism for users to explore outputs, weigh different outcomes, and steer the artifact toward what they intended."
+    },
+    {
+        "venue": {
             "name": "TOSEM",
             "full": "ACM Transactions on Software Engineering and Methodology"
         },
         "author": [
             {
-                "given": "Athena",
+                "given": "Zeinabsadat",
                 "family": "Saghi",
                 "id": "athena"
             },
@@ -25,6 +70,148 @@
         "title": "\"Like Taking the Path of Least Resistance\": Exploring the Impact of LLM Interaction on the Creative Process of Programming",
         "URL": "https://arxiv.org/abs/2605.13776",
         "abstract": "Creativity is fundamentally human. As AI takes on more of the generative work that once required human imagination, despite documented limitations in creative ability, a critical question emerges: How does GenAI affect users' creativity? Through a within-subject study followed by retrospective interviews with (N=20) programmers, we investigated the impact of LLMs on participants' process of creative thinking in programming and the creativity of generated solutions. Across two conditions (LLM-assisted vs. unassisted), participants using LLMs had significantly shorter idea-generation periods (p=0.0004), leading to fewer creative moments (p=0.002). Qualitative analysis of participants' interactions and interviews revealed four different human-LLM collaboration modes supporting various problem-solving strategies. However, a comparative analysis of the generated solutions shows that while LLMs can help generate more correct and functional code, their solutions contain roughly the same number of ideas as participant-generated ones. Based on our findings, we discuss design implications and considerations for effectively using LLMs to support user creativity."
+    },
+    {
+        "venue": {
+            "name": "Preprint",
+            "full": "arXiv preprint arXiv:2611.04206"
+        },
+        "author": [
+            {
+                "given": "Zeinabsadat",
+                "family": "Saghi",
+                "id": "athena"
+            },
+            {
+                "given": "Sadra",
+                "family": "Sabouri",
+                "id": "sadra"
+            },
+            {
+                "given": "Souti",
+                "family": "Chattopadhyay",
+                "id": "rini"
+            }
+        ],
+        "year": 2026,
+        "title": "Are We Just Applying LLMs? What SE Research Studies, Underexplores, and Could Do Next in the LLM Era",
+        "URL": "https://arxiv.org/abs/2611.04206",
+        "abstract": "Is AI taking over software engineering research? By 2025, AI appeared in more than half of the research-track papers at ICSE, FSE, and ASE. Yet ubiquity alone cannot show whether AI expanded the publication portfolio, displaced other work, or redirected the intellectual agenda. We investigate this shift through a census of 4,790 research papers (three SE conferences; 2018–2026) and free-form responses from 244 SE researchers discussing the future of the SE research community (ICSE 2026 FoSE survey). We found that while AI is taking over, it is not simply replacing non-AI research; it is unevenly reorganizing SE research around its capabilities. AI accounted for 93.1% of publication growth, but expansion in some venues and problem areas concealed contraction in others. The LLM wave also changed the field's tools more than its problem boundaries: 92.6% of LLM-wave AI papers revisit established SE problems, while most new problems arise from the introduction of LLMs in the SE process themselves. Engagement with AI remains predominantly downstream: 95.7% of AI papers apply AI or evaluate and support its use, while only 4.3% interrogate the paradigm or develop alternatives. The FoSE survey reveals a similar imbalance between recognition and response. AI-driven change was the second-most frequent concern about the field's future 20.2%, yet only 7.0% of responses mentioned AI when researchers were asked to identify one change the community should make. Together, our findings reveal a field reorganizing an inherited agenda around AI faster than it is questioning that reorganization. We discuss how SE can respond by building cumulatively across technological waves, strengthening evaluation and assurance, developing SE-native foundations, and studying software engineering in an AI-transformed world."
+    },
+    {
+        "venue": {
+            "name": "Preprint",
+            "full": "arXiv preprint arXiv:2610.36346"
+        },
+        "author": [
+            {
+                "given": "Haocong",
+                "family": "Jiang",
+                "id": "allen"
+            },
+            {
+                "given": "Sadra",
+                "family": "Sabouri",
+                "id": "sadra"
+            },
+            {
+                "given": "Sepand",
+                "family": "Haghighi"
+            },
+            {
+                "given": "Souti",
+                "family": "Chattopadhyay",
+                "id": "rini"
+            }
+        ],
+        "year": 2026,
+        "title": "Your Wish Is My Commit: Over-Compliant Refactoring in AI Coding Agents",
+        "URL": "https://arxiv.org/abs/2610.36346",
+        "abstract": "Large language models are known to be sycophantic, over-complying with users even when doing so is unproductive. When these models act as coding agents, this can be costly: an agent that keeps editing after no edit improves the code writes churn, technical debt, and review burden into the codebase. Yet the consequences of sycophancy in software engineering remain largely understudied. To understand them, we run a controlled study of iterative refactoring, an open-ended task with no stopping criterion, where any edit an agent makes once the code is already clean reflects compliance rather than improvement. Across algorithmic (n=50) and object-oriented (n=10) suites, we repeatedly ask two widely used agents, Codex and Claude Code, to refactor further across five models. Over 3,000 turns, we define six behavioral signals of over-compliance. We hypothesized that a capable agent would stop once it recognized an optimized codebase; none did. Every model kept editing, rewriting up to 31x the original codebase before first stopping and resuming edits even after declaring the task complete. Over-compliance is a costly, multi-turn behavior that compounds with every turn, and our six signals give developers and tool builders a way to detect and curb it."
+    },
+    {
+        "venue": {
+            "name": "Preprint",
+            "full": "arXiv preprint arXiv:2610.33876"
+        },
+        "author": [
+            {
+                "given": "Sadra",
+                "family": "Sabouri",
+                "id": "sadra"
+            },
+            {
+                "given": "Hosein",
+                "family": "Hasanbeig"
+            },
+            {
+                "given": "Adam",
+                "family": "Sage"
+            },
+            {
+                "given": "Shreya",
+                "family": "Sinha"
+            },
+            {
+                "given": "Cale",
+                "family": "Darling"
+            },
+            {
+                "given": "Ashish",
+                "family": "Tiwari"
+            },
+            {
+                "given": "Katie",
+                "family": "Garms"
+            },
+            {
+                "given": "Souti",
+                "family": "Chattopadhyay",
+                "id": "rini"
+            },
+            {
+                "given": "Sumit",
+                "family": "Gulwani"
+            }
+        ],
+        "year": 2026,
+        "title": "FlashScript: Compiling Recurring Agent Workflows into Reusable Neuro-Symbolic Programs",
+        "URL": "https://arxiv.org/abs/2610.33876",
+        "abstract": "Many agent tasks recur with new data or small changes, yet agents regenerate their reasoning and actions on each run, producing different results. Distilling a prior run into a skill helps the agent avoid earlier mistakes, but it still re-runs the full process each time, so runs can vary and incur that cost. We compile a successful agent run into a reusable neuro-symbolic program (NSP) with a set of guidelines we call FlashScript. Actions and data transformations become code, instance-specific values become parameters, and decisions that need model judgment become LLM calls. We identify three layers where these calls belong and three techniques that replace most of them with code. The compilation does not remove nondeterminism; it localizes it, so the deterministic program and its neural calls can be reviewed and tested separately. Across 120 WorkBench analytics tasks with Claude Haiku 4.5, the NSPs were correct and made identical tool calls on every run, using about 70 times fewer input tokens and a third of the runtime of a skill-guided agent whose runs were inconsistent. In a composite version of the tasks, the skill-guided agent's accuracy fell to 23%, and its output inconsistency increased, while the NSPs remained correct and identical across all runs. The NSPs successfully generalized to all 108 unseen instances of the same templates. Our findings suggest that NSPs from agent trajectories can be considered cumulative software assets for end-users to test, maintain, and reuse in their recurring workflows."
+    },
+    {
+        "venue": {
+            "name": "JBHI",
+            "full": "IEEE Journal of Biomedical and Health Informatics"
+        },
+        "author": [
+            {
+                "given": "Zeinabsadat",
+                "family": "Saghi",
+                "id": "athena"
+            },
+            {
+                "given": "Daria",
+                "family": "Riabukhina"
+            },
+            {
+                "given": "Olubukola",
+                "family": "Akinbami"
+            },
+            {
+                "given": "Paul",
+                "family": "Bogdan"
+            },
+            {
+                "given": "Souti",
+                "family": "Chattopadhyay",
+                "id": "rini"
+            }
+        ],
+        "title": "Non-Markovian Dynamical Systems Modeling of Electroencephalogram-Based Brain Activity for Predicting the Cognitive Fatigue Level",
+        "year": 2026,
+        "URL": "https://ieeexplore.ieee.org/abstract/document/11707268/",
+        "abstract": "Cognitive fatigue transitions from focused attention to inexact responses can cause catastrophic failures in high-stakes environments, yet current black-box assessment techniques ignore the brain's non-Markovian and time-varying interdependent properties, limiting realtime phase transition detection. We develop a fractional dynamical networks-based machine learning (FDNML) framework using coupled fractional-order differential equations to capture brain signal interdependencies and detect cognitive fatigue transitions. Multifractal properties of brain activity exhibit distinct generalized fractal dimension signatures across fatigue levels, with Wasserstein distances of 0.10, 0.13, and 0.08 between states 0-1, 1-2, and 0-2, respectively. The framework achieves 93.33% classification accuracy and 95% AUROC enabling prevention of performance degradation through early detection of neural state transitions."
     },
     {
         "venue": {
