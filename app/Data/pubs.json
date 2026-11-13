@@ -41,7 +41,7 @@
         ],
         "title": "Pista: Path-Preserving Steering of Spreadsheet Agents",
         "year": 2027,
-        "URL": "#",
+        "URL": "https://arxiv.org/abs/2604.20070",
         "abstract": "AI agents execute multi-step complex tasks directly on artifacts that users own and are accountable for. Interfaces for these agents are progressing from returning only a final output, to surfacing the execution as a sequence of steps, to letting users edit a step in place. Editing in place, however, overwrites the path an edit replaces: the steps that followed are regenerated, and the user gives up a sequence they have not yet evaluated for one they cannot preview. Therefore, users hesitate to intervene where it would be most helpful. We present Pista, a spreadsheet agent that enables users to branch: an edit at any step forks the execution; both paths persist, and users can move between them to compare outcomes. It also pairs each step with an in-situ explanation and surfaces the formula, source range, and output range behind every change. In a formative study (𝑁 = 8) with a stepwise agent probe and a within-subjects evaluation (𝑁 = 16) against a baseline agent, we find gains on both. At matched task success, participants explained the agent’s changes in significantly greater depth (4.38 vs. 2.94, 𝑝 = .015) and identified more issues (2.12 vs. 1.75). They also intervened differently: branching was the most-used feature (15 of 16 participants, median 3 uses per session), and 13 of those 15 used it to check a regenerated path against their expectations. Step-specific edits displaced whole-task re-prompts, cutting re-prompts (2.19 vs. 4.00, 𝑝 < .001) and halving the words each correction took (12.90 vs. 27.63, 𝑝 < .001), because an edit inherits its context from the step it attaches to. Understanding an agent’s actions is therefore not sufficient for steerability. We should provide a safe mechanism for users to explore outputs, weigh different outcomes, and steer the artifact toward what they intended."
     },
     {
@@ -150,7 +150,8 @@
             },
             {
                 "given": "Shreya",
-                "family": "Sinha"
+                "family": "Sinha",
+                "id": "shreya",
             },
             {
                 "given": "Cale",
