@@ -1,6 +1,15 @@
 [
     {
         "date": "Nov '26",
+        "content": "An abstract got accepted to SGO 27'! 🎉",
+        "people": [
+            "sadra",
+            "allen",
+            "rini"
+        ]
+    },
+    {
+        "date": "Nov '26",
         "content": "One paper got accepted to IUI '27! 🎉",
         "href": "https://arxiv.org/abs/2604.20070",
         "people": [
