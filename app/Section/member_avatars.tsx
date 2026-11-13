@@ -106,6 +106,11 @@ export const member_avatar: {
     name: "Allen Jiang",
     id: "allen",
   },
+  shreya: {
+    src: "/profile/shreya.jpeg",
+    name: "Shreya Sinha",
+    id: "shreya"
+  }
 };
 
 export const member_avatar_tooltip = Object.entries(member_avatar).reduce(
