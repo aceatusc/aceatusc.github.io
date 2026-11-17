@@ -15,9 +15,11 @@ export default function Opportunities() {
       <div className={styles.opp_container}>
         ACE lab will have{" "}
         <i style={{ color: "#990000", fontWeight: "bold" }}>openings</i> for{" "}
-        <span style={{ color: "#990000", fontWeight: "bold" }}>PhD</span>{" "}
-        position(s) in the next cycle! If you are interested, please apply
-        through the USC graduate admission portal and mention Prof.
+        <span style={{ color: "#990000", fontWeight: "bold" }}>two PhD</span>{" "}
+        positions and{" "}
+        <span style={{ color: "#990000", fontWeight: "bold" }}>one postdoc</span>{" "}
+        position in the next cycle! If you are interested, please apply
+        through the USC graduate admission portal (for PhD) and mention Prof.
         Chattopadhyay in your application.
         {/* <i style={{ color: "#990000", fontWeight: "bold" }}>HIRING</i> ! We have
         openings for PhD students in Fall 2025. If you are interested, please
