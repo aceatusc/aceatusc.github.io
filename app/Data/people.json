@@ -183,6 +183,21 @@
     ]
   },
   {
+    "name": "Shreya Sinha",
+    "role": "a M.S. Researcher",
+    "image": "/profile/shreya.png",
+    "link": "https://www.linkedin.com/in/shreya-sinha-552a0b239/",
+    "alumni": false,
+    "id": "shreya",
+    "bio": "at USC.",
+    "links": [
+      {
+        "type": "linkedin",
+        "href": "https://www.linkedin.com/in/shreya-sinha-552a0b239/"
+      }
+    ]
+  },
+  {
     "name": "Anton George",
     "role": "a M.S. Researcher",
     "image": "/profile/anton.jpg",
